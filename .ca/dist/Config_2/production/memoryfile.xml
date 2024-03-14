@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name=".ca/dist/Config_2/production/PIC24_PMP_1602_LI_BME280.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>12</used>
+      <free>8180</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>65274</length>
+      <used>6369</used>
+      <free>58905</free>
+    </memory>
+  </executable>
+</project>

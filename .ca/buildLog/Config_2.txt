@@ -1,0 +1,69 @@
+make -f nbproject/Makefile-Config_2.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory 'C:/WORKSPACE_PIC24/PIC24_PMP_1602_LI_BME280.X'
+rm -f  -r .ca/build/Config_2/production
+rm -f  -r .ca/dist/Config_2/production
+make[1]: Leaving directory 'C:/WORKSPACE_PIC24/PIC24_PMP_1602_LI_BME280.X'
+[32mCLEAN SUCCESSFUL (total time: 269ms)[0m
+make -f nbproject/Makefile-Config_2.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory 'C:/WORKSPACE_PIC24/PIC24_PMP_1602_LI_BME280.X'
+make  -f nbproject/Makefile-Config_2.mk .ca/dist/Config_2/production/PIC24_PMP_1602_LI_BME280.X.production.hex
+make[2]: Entering directory 'C:/WORKSPACE_PIC24/PIC24_PMP_1602_LI_BME280.X'
+"C:\Program Files\Microchip\xc16\v2.10\bin\xc16-gcc.exe"   main.c  -o .ca/build/Config_2/production/main.o  -c -mcpu=24FJ64GA004  -MP -MMD -MF ".ca/build/Config_2/production/main.o.d"        -g -omf=elf -DXPRJ_Config_2=Config_2      -specs=cmd.txt -mconst-in-code -O2 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC24F-GA-GB_DFP/1.9.336/xc16"
+"C:\Program Files\Microchip\xc16\v2.10\bin\xc16-gcc.exe"   BME280.c  -o .ca/build/Config_2/production/BME280.o  -c -mcpu=24FJ64GA004  -MP -MMD -MF ".ca/build/Config_2/production/BME280.o.d"        -g -omf=elf -DXPRJ_Config_2=Config_2      -specs=cmd.txt -mconst-in-code -O2 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC24F-GA-GB_DFP/1.9.336/xc16"
+"C:\Program Files\Microchip\xc16\v2.10\bin\xc16-gcc.exe"   PMP_LCD.c  -o .ca/build/Config_2/production/PMP_LCD.o  -c -mcpu=24FJ64GA004  -MP -MMD -MF ".ca/build/Config_2/production/PMP_LCD.o.d"        -g -omf=elf -DXPRJ_Config_2=Config_2      -specs=cmd.txt -mconst-in-code -O2 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC24F-GA-GB_DFP/1.9.336/xc16"
+"C:\Program Files\Microchip\xc16\v2.10\bin\xc16-gcc.exe"   INITcpu.c  -o .ca/build/Config_2/production/INITcpu.o  -c -mcpu=24FJ64GA004  -MP -MMD -MF ".ca/build/Config_2/production/INITcpu.o.d"        -g -omf=elf -DXPRJ_Config_2=Config_2      -specs=cmd.txt -mconst-in-code -O2 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC24F-GA-GB_DFP/1.9.336/xc16"
+[31mmain.c: In function 'main':
+main.c:22:13: warning: implicit declaration of function 'PIN_MANAGER_Initialize'
+main.c:23:13: warning: implicit declaration of function 'CLOCK_Initialize'
+main.c:24:13: warning: implicit declaration of function 'SPI2_Initialize'[0m
+"C:\Program Files\Microchip\xc16\v2.10\bin\xc16-gcc.exe"   -o .ca/dist/Config_2/production/PIC24_PMP_1602_LI_BME280.X.production.elf  .ca/build/Config_2/production/main.o .ca/build/Config_2/production/BME280.o .ca/build/Config_2/production/PMP_LCD.o .ca/build/Config_2/production/INITcpu.o      -mcpu=24FJ64GA004        -omf=elf -DXPRJ_Config_2=Config_2      -specs=cmd.txt -Wl,,,--defsym=__MPLAB_BUILD=1,,--script=p24FJ64GA004.gld,--stack=16,--check-sections,--data-init,--pack-data,--handles,--isr,--no-gc-sections,--fill-upper=0,--stackguard=16,--no-force-link,--smart-io,-Map=".ca/dist/Config_2/production/PIC24_PMP_1602_LI_BME280.X.production.map",--report-mem,--memorysummary,.ca/dist/Config_2/production/memoryfile.xml  -mdfp="C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC24F-GA-GB_DFP/1.9.336/xc16" 
+[31m
+Info: Loading file: C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC24F-GA-GB_DFP/1.9.336/xc16/bin/../support/PIC24F/gld\\p24FJ64GA004.gld[0m
+
+
+xc16-ld 2.10 (B)
+
+Default Code Model: Small
+Default Data Model: Large
+Default Scalar Model: Small
+
+"program" Memory  [Origin = 0x200, Length = 0xa9fc]
+
+section                    address   length (PC units)   length (bytes) (dec)
+-------                    -------   -----------------   --------------------
+.text                        0x200               0x6fc           0xa7a  (2682)
+.const                       0x8fc                0x32            0x4b  (75)
+.text                        0x92e               0x930           0xdc8  (3528)
+.init.delay32               0x125e                0x1c            0x2a  (42)
+.dinit                      0x127a                0x1c            0x2a  (42)
+
+                 Total "program" memory used (bytes):         0x18e1  (6369) 9%
+
+
+"data" Memory  [Origin = 0x800, Length = 0x2000]
+
+section                    address      alignment gaps    total length  (dec)
+-------                    -------      --------------    -------------------
+.nbss                        0x800                   0             0x8  (8)
+.ndata                       0x808                   0             0x2  (2)
+.nbss                        0x80a                   0             0x2  (2)
+
+                 Total "data" memory used (bytes):            0xc  (12) <1%
+
+
+Dynamic Memory Usage
+
+region                     address                      maximum length  (dec)
+------                     -------                      ---------------------
+heap                             0                                   0  (0)
+stack                        0x80c                              0x1ff4  (8180)
+
+                 Maximum dynamic memory (bytes):         0x1ff4  (8180)
+
+Info: Project is using a large data memory model when small data memory model is sufficient.
+
+"C:\Program Files\Microchip\xc16\v2.10\bin"\\xc16-bin2hex .ca/dist/Config_2/production/PIC24_PMP_1602_LI_BME280.X.production.elf -a  -omf=elf   -mdfp="C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC24F-GA-GB_DFP/1.9.336/xc16" 
+Normalizing hex file
+make[2]: Leaving directory 'C:/WORKSPACE_PIC24/PIC24_PMP_1602_LI_BME280.X'
+make[1]: Leaving directory 'C:/WORKSPACE_PIC24/PIC24_PMP_1602_LI_BME280.X'
+[32mBUILD SUCCESSFUL (total time: 6s)[0m

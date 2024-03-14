@@ -1,0 +1,6 @@
+make -f nbproject/Makefile-PRO_Comparison.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory 'C:/WORKSPACE_PIC24/PIC24_PMP_1602_LI_BME280.X'
+rm -f  -r .ca/build/PRO_Comparison/production
+rm -f  -r .ca/dist/PRO_Comparison/production
+make[1]: Leaving directory 'C:/WORKSPACE_PIC24/PIC24_PMP_1602_LI_BME280.X'
+[32mCLEAN SUCCESSFUL (total time: 207ms)[0m

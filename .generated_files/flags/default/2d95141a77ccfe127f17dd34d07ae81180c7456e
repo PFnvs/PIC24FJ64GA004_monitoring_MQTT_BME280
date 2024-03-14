@@ -1,0 +1,1 @@
+ -c -mcpu=$(MP_PROCESSOR_OPTION)      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -specs=cmd.txt -mconst-in-code -Os -msmart-io=1 -Wall -msfr-warn=off   C:\Users\Pavel_F\Desktop\system_monitoring_P24FJ64GA004_w5500_BME280_ver1\PIC24_PMP_1602_LI_BME280.X\MQTTDeserializePublish.c

@@ -1,0 +1,2560 @@
+Microchip Technology Inc, v2.10 (A)
+
+Tool Name:
+  c:\program files\microchip\xc16\v2.10\bin\bin\..\bin/elf-ld.exe
+
+Command:
+  -p24FJ64GA004 \
+  -o \
+  dist/default/production/PIC24_PMP_1602_LI_BME280.X.production.elf \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/.. \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../lib \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld \
+  build/default/production/main.o \
+  build/default/production/BME280.o \
+  build/default/production/PMP_LCD.o \
+  build/default/production/INIT.o \
+  build/default/production/SPI.o \
+  build/default/production/socket.o \
+  build/default/production/wizchip_conf.o \
+  build/default/production/w5500.o \
+  build/default/production/MQTTClient.o \
+  build/default/production/MQTTPacket.o \
+  build/default/production/mqtt_interface.o \
+  build/default/production/MQTTFormat.o \
+  build/default/production/MQTTConnectClient.o \
+  build/default/production/MQTTSerializePublish.o \
+  build/default/production/MQTTSubscribeClient.o \
+  build/default/production/MQTTSubscribeServer.o \
+  build/default/production/MQTTUnsubscribeClient.o \
+  build/default/production/MQTTUnsubscribeServer.o \
+  build/default/production/MQTTDeserializePublish.o \
+  build/default/production/MQTTConnectServer.o \
+  --defsym=__MPLAB_BUILD=1 \
+  -Tp24FJ64GA004.gld.00 \
+  --stack=16 \
+  --check-sections \
+  --data-init \
+  --pack-data \
+  --handles \
+  --isr \
+  --no-gc-sections \
+  --fill-upper=0 \
+  --stackguard=16 \
+  --no-force-link \
+  --smart-io \
+  -Map=dist/default/production/PIC24_PMP_1602_LI_BME280.X.production.map \
+  --report-mem \
+  --memorysummary \
+  dist/default/production/memoryfile.xml \
+  -start-group \
+  --library=c99-pic30-elf \
+  --library=m-elf \
+  --library=c99-elf \
+  -end-group \
+
+
+Optional library libpPIC24Fxxx.a not found
+Archive member included because of file (symbol)
+
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o)
+                              (__resetPRI)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(data_init_standard.o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o) (__data_init_standard)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt_start_mode_normal.Meo)
+                              (__crt_start_mode_normal)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(delay32.Meo)
+                              build/default/production/main.o (___delay32)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fixsfsi.XX_o)
+                              build/default/production/BME280.o (_(float, int, long long, short, float, short, int))
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+                              build/default/production/BME280.o (___floatsisf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+                              build/default/production/BME280.o (___floatunsisf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fixsfsi.XX_o) (__funpack)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+                              build/default/production/BME280.o (___udivsi3)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.XX_o)
+                              build/default/production/BME280.o (___mulsi3)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+                              build/default/production/BME280.o (___divsf3)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+                              build/default/production/BME280.o (___mulsf3)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o) (__dnrmpackf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o) (__unpackdnrmf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o) (__typef)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o) (__propnanf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o) (__spackf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o) (__unpackf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(errno.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o) (_errno)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o) (___floatdisf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o) (___floatundisf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o) (__fpack)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o)
+                              build/default/production/main.o (__printf_cdnopsuxX)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_doux.XX_o)
+                              build/default/production/mqtt_interface.o (__printf_cdnopuxX)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_s.XX_o)
+                              build/default/production/main.o (__printf_s)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_snprintf_dosux.XX_o)
+                              build/default/production/MQTTFormat.o (__snprintf_cdnopsuxX)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_sprintf_doux.XX_o)
+                              build/default/production/main.o (__sprintf_cdnopuxX)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcmp.XX_o)
+                              build/default/production/main.o (_memcmp)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcpy.XX_o)
+                              build/default/production/main.o (_memcpy)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(puts.XX_o)
+                              build/default/production/mqtt_interface.o (_puts)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o) (__stdout)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strcat.XX_o)
+                              build/default/production/main.o (_strcat)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strcpy.XX_o)
+                              build/default/production/main.o (_strcpy)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strlen.XX_o)
+                              build/default/production/main.o (_strlen)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strncmp.XX_o)
+                              build/default/production/MQTTPacket.o (_strncmp)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_d.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o) (___fmt_d_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_o.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o) (___fmt_o_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_s.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o) (___fmt_s_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_u.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_d.XX_o) (___cvt_u)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_x.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o) (___fmt_x_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vfprintf.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o) (___vfprintf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vsnprintf.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_snprintf_dosux.XX_o) (___vsnprintf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vsprintf.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_sprintf_doux.XX_o) (___vsprintf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_init_needed.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.XX_o) (___io_init_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.XX_o) (___stdio_write_unbuffered)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_int.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o) (___pop_int_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_ptr.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o) (___pop_ptr_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_d.XX_o) (___pad)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.XX_o) (___stdio_close_rw)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(atoi.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o) (_atoi)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fputs.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(puts.XX_o) (_fputs)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fwrite.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fputs.XX_o) (_fwrite)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(lseek.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.XX_o) (_lseek)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memset.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o) (_memset)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(putc.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(puts.XX_o) (_putc_unlocked)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stpcpy.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strcpy.XX_o) (___stpcpy)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(syscall_ret.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(lseek.XX_o) (___syscall_ret)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(tolower.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o) (_tolower)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(toupper.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_x.XX_o) (_toupper)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__errno_location.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vsnprintf.XX_o) (___errno_val)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__init_stdio.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_init_needed.XX_o) (___init_stdio_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_file_needed.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_init_needed.XX_o) (___io_file_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_float.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o) (___pop_float)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(write.Meo)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.XX_o) (_write)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(c30_uart.Meo)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(write.Meo) (___C30_UART)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_float.XX_o) (___extendsfdf2)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.XX_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_u.XX_o) (___udivdi3)
+
+
+xc16-ld 2.10 (A)
+
+Default Code Model: Small
+Default Data Model: Large
+Default Scalar Model: Small
+
+"program" Memory  [Origin = 0x200, Length = 0xa9fc]
+
+section                    address   length (PC units)   length (bytes) (dec)
+-------                    -------   -----------------   --------------------
+.text                        0x200              0x17d8          0x23c4  (9156)
+.const                      0x19d8               0x6e0           0xa50  (2640)
+.text                       0x20b8              0x2fba          0x4797  (18327)
+.dinit                      0x5072               0x102           0x183  (387)
+.text                       0x5174               0x494           0x6de  (1758)
+.init.delay32               0x5608                0x1c            0x2a  (42)
+
+                 Total "program" memory used (bytes):         0x7e36  (32310) 49%
+
+
+"data" Memory  [Origin = 0x800, Length = 0x2000]
+
+section                    address      alignment gaps    total length  (dec)
+-------                    -------      --------------    -------------------
+.nbss                        0x800                   0            0x12  (18)
+.ndata                       0x812                   0             0x4  (4)
+.nbss                        0x816                   0             0xc  (12)
+.ndata                       0x822                   0             0x2  (2)
+.nbss                        0x824                   0             0x6  (6)
+.bss                         0x82a                   0          0x1446  (5190)
+.data                       0x1c70                   0            0xc6  (198)
+.bss                        0x1d36                   0            0x1e  (30)
+.data                       0x1d54                   0             0x2  (2)
+
+                 Total "data" memory used (bytes):         0x1556  (5462) 66%
+
+
+Dynamic Memory Usage
+
+region                     address                      maximum length  (dec)
+------                     -------                      ---------------------
+heap                             0                                   0  (0)
+stack                       0x1d56                               0xaaa  (2730)
+
+                 Maximum dynamic memory (bytes):          0xaaa  (2730)
+
+Info: Project is using a large data memory model when small data memory model is sufficient.
+
+
+External Symbols in Data Memory (by address):
+
+                    0x0800                  _humidity
+                    0x0802                  _pressure
+                    0x0804                  _write_buffer_len
+                    0x0805                  _sock_state
+                    0x0806                  _SoftTimer1
+                    0x0808                  _SoftTimer2
+                    0x080a                  _n
+                    0x0812                  _licznik
+                    0x0814                  _temperature
+                    0x0816                  _t_fine
+                    0x081e                  _MilliTimer
+                    0x082a                  _targetIP
+                    0x082e                  _tempBuffer
+                    0x0c2e                  _RX_BUF
+                    0x102e                  _TX_BUF
+                    0x142e                  _c
+                    0x1460                  _s_humidity
+                    0x1465                  _s_preasure
+                    0x146a                  _s_tmp
+                    0x146f                  _read_buffer
+                    0x186f                  _write_buffer
+                    0x1c70                  __stdout
+                    0x1c72                  ___stdout_used
+                    0x1cb2                  _socknumlist
+                    0x1cb6                  _opts
+                    0x1cc8                  _netInfo
+                    0x1ce0                  _MQTTPacket_names
+                    0x1d1c                  _WIZCHIP
+                    0x1d36                  _sock_pack_info
+                    0x1d52                  ___errno_val
+                    0x1d54                  ___C30_UART
+
+External Symbols in Data Memory (by name):
+
+                    0x1ce0                  _MQTTPacket_names
+                    0x081e                  _MilliTimer
+                    0x0c2e                  _RX_BUF
+                    0x0806                  _SoftTimer1
+                    0x0808                  _SoftTimer2
+                    0x102e                  _TX_BUF
+                    0x1d1c                  _WIZCHIP
+                    0x1d54                  ___C30_UART
+                    0x1d52                  ___errno_val
+                    0x1c72                  ___stdout_used
+                    0x1c70                  __stdout
+                    0x142e                  _c
+                    0x0800                  _humidity
+                    0x0812                  _licznik
+                    0x080a                  _n
+                    0x1cc8                  _netInfo
+                    0x1cb6                  _opts
+                    0x0802                  _pressure
+                    0x146f                  _read_buffer
+                    0x1460                  _s_humidity
+                    0x1465                  _s_preasure
+                    0x146a                  _s_tmp
+                    0x1d36                  _sock_pack_info
+                    0x0805                  _sock_state
+                    0x1cb2                  _socknumlist
+                    0x0816                  _t_fine
+                    0x082a                  _targetIP
+                    0x082e                  _tempBuffer
+                    0x0814                  _temperature
+                    0x186f                  _write_buffer
+                    0x0804                  _write_buffer_len
+
+External Symbols in Program Memory (by address):
+
+                  0x000200                  __resetPRI
+                  0x00023c                  __psv_init
+                  0x000252                  __data_init_standard
+                  0x000252                  __data_init
+                  0x000320                  __DefaultInterrupt
+                  0x0003aa                  ___fixsfsi
+                  0x0003ec                  ___floatsisf
+                  0x0003f2                  ___floatunsisf
+                  0x0003f6                  __funpack
+                  0x000420                  ___udivsi3
+                  0x000440                  ___mulp32eds3
+                  0x000440                  ___mulsi3
+                  0x000440                  ___mulp32peds3
+                  0x00044c                  ___divsf3
+                  0x00044c                  ___divsf3x
+                  0x0005de                  __sdivf
+                  0x00060a                  ___mulsf3
+                  0x00060a                  ___mulsf3x
+                  0x000716                  __dnrmpackf
+                  0x00076a                  __unpackdnrmf
+                  0x0007c8                  __typef
+                  0x0007fc                  __propnanf
+                  0x00080e                  __spackf
+                  0x0008b4                  __unpackf
+                  0x00091a                  ___floatdisf
+                  0x00093a                  ___floatundisf
+                  0x000998                  __fpack
+                  0x0009f4                  ___sio_printf_dosux
+                  0x000a12                  ___sio_printf_doux
+                  0x000a30                  ___sio_printf_s
+                  0x000a3e                  ___sio_snprintf_dosux
+                  0x000a58                  ___sio_sprintf_doux
+                  0x000a66                  _memcmp
+                  0x000a82                  _memcpy
+                  0x000a90                  _puts
+                  0x000ab0                  ___init_stdout
+                  0x000ab8                  _strcat
+                  0x000acc                  _strcpy
+                  0x000ada                  _strlen
+                  0x000b0a                  _strncmp
+                  0x000b34                  ___fmt_d
+                  0x000be6                  ___fmt_o
+                  0x000c50                  ___fmt_s
+                  0x000ca4                  ___cvt_u
+                  0x000d4a                  ___fmt_u
+                  0x000d9c                  ___fmt_x
+                  0x000ee6                  ___vfprintf
+                  0x000f02                  ___vsnprintf
+                  0x000f4c                  ___vsprintf
+                  0x000f7e                  ___out
+                  0x000f8e                  ___pop_int
+                  0x001036                  ___pop_ptr
+                  0x0010cc                  ___pad
+                  0x001146                  ___fmt_state
+                  0x00144a                  ___printf_core
+                  0x00148a                  ___stdio_close
+                  0x0014c8                  ___stdio_close_rw
+                  0x001534                  _atoi
+                  0x001580                  _fputs
+                  0x0015ac                  _fwrite
+                  0x0015d8                  ___lseek
+                  0x0015e4                  _memset
+                  0x0016ac                  ___putc_unbuffered
+                  0x0016da                  _putc
+                  0x0016dc                  ___stpcpy
+                  0x00171c                  ___syscall_ret
+                  0x001730                  _tolower
+                  0x00173c                  ___tolower_l
+                  0x00173e                  _toupper
+                  0x00174a                  ___toupper_l
+                  0x00174e                  ___init_stdio
+                  0x001754                  ___pop_float
+                  0x001796                  ___extendsfdf2
+                  0x001820                  ___udivmoddi3
+                  0x001906                  ___udivdi3
+                  0x001914                  ___umoddi3
+                  0x00191c                  ___divdi3
+                  0x00197c                  ___moddi3
+                  0x001c72                  _http_200_header
+                  0x001cc6                  _http_404_header
+                  0x0020b8                  _close
+                  0x002114                  _socket
+                  0x00220a                  _listen
+                  0x002272                  _connect
+                  0x002376                  _disconnect
+                  0x0023e6                  _send
+                  0x0024de                  _recv
+                  0x0025a4                  _sendto
+                  0x0026fa                  _recvfrom
+                  0x002896                  _ctlsocket
+                  0x002950                  _setsockopt
+                  0x002a48                  _getsockopt
+                  0x002cd8                  _MQTTClientInit
+                  0x002d08                  _deliverMessage
+                  0x002d78                  _keepalive
+                  0x002dc6                  _cycle
+                  0x002e94                  _MQTTYield
+                  0x002eb6                  _MQTTRun
+                  0x002ece                  _waitfor
+                  0x002ef6                  _MQTTConnect
+                  0x002f8e                  _MQTTSubscribe
+                  0x00303c                  _MQTTUnsubscribe
+                  0x0030a0                  _MQTTPublish
+                  0x00314c                  _MQTTDisconnect
+                  0x00317a                  _cs_sel
+                  0x003180                  _cs_desel
+                  0x003186                  _spi_rb
+                  0x003194                  _spi_wb
+                  0x0031a4                  _messageArrived
+                  0x00320a                  _PublishTopic_t
+                  0x003240                  _PublishTopic_p
+                  0x003272                  _PublishTopic_h
+                  0x0032a4                  _SubscribeTopic
+                  0x0032c8                  _ip_init
+                  0x003310                  _loopback_tcps
+                  0x00348e                  _main
+                  0x0036aa                  _wizchip_cris_enter
+                  0x0036ac                  _wizchip_cris_exit
+                  0x0036ae                  _wizchip_cs_select
+                  0x0036b0                  _wizchip_cs_deselect
+                  0x0036b2                  _wizchip_bus_readdata
+                  0x0036b6                  _wizchip_bus_writedata
+                  0x0036ba                  _wizchip_spi_readbyte
+                  0x0036bc                  _wizchip_spi_writebyte
+                  0x0036be                  _wizchip_spi_readburst
+                  0x0036c0                  _wizchip_spi_writeburst
+                  0x0036c2                  _reg_wizchip_cris_cbfunc
+                  0x0036da                  _reg_wizchip_cs_cbfunc
+                  0x0036f2                  _reg_wizchip_bus_cbfunc
+                  0x003714                  _reg_wizchip_spi_cbfunc
+                  0x003736                  _reg_wizchip_spiburst_cbfunc
+                  0x003758                  _wizchip_sw_reset
+                  0x0037b8                  _wizchip_init
+                  0x003822                  _wizchip_clrinterrupt
+                  0x00383c                  _wizchip_getinterrupt
+                  0x003856                  _wizchip_setinterruptmask
+                  0x00386e                  _wizchip_getinterruptmask
+                  0x003888                  _wizphy_getphylink
+                  0x003892                  _wizphy_getphypmode
+                  0x0038a2                  _wizphy_reset
+                  0x0038c2                  _wizphy_setphyconf
+                  0x0038f8                  _wizphy_getphyconf
+                  0x00394c                  _wizphy_getphystat
+                  0x003968                  _wizphy_setphypmode
+                  0x0039b2                  _ctlwizchip
+                  0x003a80                  _wizchip_setnetinfo
+                  0x003acc                  _wizchip_getnetinfo
+                  0x003b18                  _wizchip_setnetmode
+                  0x003b34                  _wizchip_getnetmode
+                  0x003b3c                  _wizchip_settimeout
+                  0x003b5e                  _wizchip_gettimeout
+                  0x003b84                  _ctlnetwork
+                  0x003bc8                  _WIZCHIP_READ
+                  0x003c4e                  _WIZCHIP_WRITE
+                  0x003cce                  _WIZCHIP_READ_BUF
+                  0x003d68                  _WIZCHIP_WRITE_BUF
+                  0x003dfa                  _getSn_TX_FSR
+                  0x003e44                  _getSn_RX_RSR
+                  0x003e8e                  _wiz_send_data
+                  0x003efc                  _wiz_recv_data
+                  0x003f6a                  _wiz_recv_ignore
+                  0x003fae                  _MQTTPacket_getName
+                  0x003fb6                  _MQTTStringFormat_connect
+                  0x004056                  _MQTTStringFormat_connack
+                  0x004068                  _MQTTStringFormat_publish
+                  0x00409e                  _MQTTStringFormat_ack
+                  0x0040da                  _MQTTStringFormat_subscribe
+                  0x0040f6                  _MQTTStringFormat_suback
+                  0x004106                  _MQTTStringFormat_unsubscribe
+                  0x004120                  _MQTTFormat_toClientString
+                  0x004224                  _MQTTFormat_toServerString
+                  0x004376                  _BME280_init
+                  0x004390                  _readTemp
+                  0x004434                  _readHumidity
+                  0x004570                  _readPressure
+                  0x00471c                  _bufchar
+                  0x004786                  _MQTTPacket_encode
+                  0x0047a8                  _MQTTPacket_decode
+                  0x0047e4                  _MQTTPacket_len
+                  0x0047fe                  _MQTTPacket_decodeBuf
+                  0x004804                  _readInt
+                  0x004816                  _readChar
+                  0x004820                  _writeChar
+                  0x004828                  _writeInt
+                  0x004840                  _writeCString
+                  0x004862                  _getLenStringLen
+                  0x00486e                  _writeMQTTString
+                  0x0048a6                  _readMQTTLenString
+                  0x0048d4                  _MQTTstrlen
+                  0x0048ea                  _MQTTPacket_equals
+                  0x004922                  _MQTTPacket_read
+                  0x00496a                  _MQTTPacket_readnb
+                  0x004a08                  _MQTTSerialize_connectLength
+                  0x004a80                  _MQTTSerialize_connect
+                  0x004b68                  _MQTTDeserialize_connack
+                  0x004bb0                  _MQTTSerialize_zero
+                  0x004bd8                  _MQTTSerialize_disconnect
+                  0x004bdc                  _MQTTSerialize_pingreq
+                  0x004be0                  _MQTTPacket_checkVersion
+                  0x004c10                  _MQTTDeserialize_connect
+                  0x004d02                  _MQTTSerialize_connack
+                  0x004d42                  _w5x00_disconnect
+                  0x004d46                  _w5x00_write
+                  0x004d6e                  _w5x00_read
+                  0x004da2                  _MilliTimer_Handler
+                  0x004db0                  _TimerInit
+                  0x004db8                  _TimerIsExpired
+                  0x004dc8                  _TimerCountdownMS
+                  0x004dd6                  _TimerCountdown
+                  0x004de8                  _TimerLeftMS
+                  0x004dfa                  _NewNetwork
+                  0x004e0a                  _ConnectNetwork
+                  0x004e58                  _MQTTSerialize_publishLength
+                  0x004e7e                  _MQTTSerialize_publish
+                  0x004f06                  _MQTTSerialize_ack
+                  0x004f50                  _MQTTSerialize_puback
+                  0x004f58                  _MQTTSerialize_pubrel
+                  0x004f60                  _MQTTSerialize_pubcomp
+                  0x004f68                  _MQTTSerialize_subscribeLength
+                  0x004f92                  _MQTTSerialize_subscribe
+                  0x00500e                  _MQTTDeserialize_suback
+                  0x005174                  _MQTTDeserialize_subscribe
+                  0x0051f8                  _MQTTSerialize_suback
+                  0x005248                  _MQTTDeserialize_publish
+                  0x0052c8                  _MQTTDeserialize_ack
+                  0x005306                  _MQTTSerialize_unsubscribeLength
+                  0x005330                  _MQTTSerialize_unsubscribe
+                  0x0053a0                  _MQTTDeserialize_unsuback
+                  0x0053c0                  _MQTTDeserialize_unsubscribe
+                  0x00542e                  _MQTTSerialize_unsuback
+                  0x005464                  _LCD_init
+                  0x0054b0                  _LCD_read
+                  0x0054c0                  _LCD_write
+                  0x0054dc                  _Puts_LCD
+                  0x0054f0                  _Clear_LCD
+                  0x0054f6                  _Home_LCD
+                  0x0054fc                  _Position_LCD
+                  0x005506                  _PIN_MANAGER_Initialize
+                  0x00556a                  _CLOCK_Initialize
+                  0x005594                  _SPI2_Initialize
+                  0x0055a2                  _readSPI8bit
+                  0x0055c2                  _readSPI16bit
+                  0x0055d8                  _readSPI16bit_u_LE
+                  0x0055e2                  _readSPI16bit_s_LE
+                  0x0055e4                  _writeSPI
+                  0x005608                  ___delay32
+
+External Symbols in Program Memory (by name):
+
+                  0x004376                  _BME280_init
+                  0x00556a                  _CLOCK_Initialize
+                  0x0054f0                  _Clear_LCD
+                  0x004e0a                  _ConnectNetwork
+                  0x0054f6                  _Home_LCD
+                  0x005464                  _LCD_init
+                  0x0054b0                  _LCD_read
+                  0x0054c0                  _LCD_write
+                  0x002cd8                  _MQTTClientInit
+                  0x002ef6                  _MQTTConnect
+                  0x0052c8                  _MQTTDeserialize_ack
+                  0x004b68                  _MQTTDeserialize_connack
+                  0x004c10                  _MQTTDeserialize_connect
+                  0x005248                  _MQTTDeserialize_publish
+                  0x00500e                  _MQTTDeserialize_suback
+                  0x005174                  _MQTTDeserialize_subscribe
+                  0x0053a0                  _MQTTDeserialize_unsuback
+                  0x0053c0                  _MQTTDeserialize_unsubscribe
+                  0x00314c                  _MQTTDisconnect
+                  0x004120                  _MQTTFormat_toClientString
+                  0x004224                  _MQTTFormat_toServerString
+                  0x004be0                  _MQTTPacket_checkVersion
+                  0x0047a8                  _MQTTPacket_decode
+                  0x0047fe                  _MQTTPacket_decodeBuf
+                  0x004786                  _MQTTPacket_encode
+                  0x0048ea                  _MQTTPacket_equals
+                  0x003fae                  _MQTTPacket_getName
+                  0x0047e4                  _MQTTPacket_len
+                  0x004922                  _MQTTPacket_read
+                  0x00496a                  _MQTTPacket_readnb
+                  0x0030a0                  _MQTTPublish
+                  0x002eb6                  _MQTTRun
+                  0x004f06                  _MQTTSerialize_ack
+                  0x004d02                  _MQTTSerialize_connack
+                  0x004a80                  _MQTTSerialize_connect
+                  0x004a08                  _MQTTSerialize_connectLength
+                  0x004bd8                  _MQTTSerialize_disconnect
+                  0x004bdc                  _MQTTSerialize_pingreq
+                  0x004f50                  _MQTTSerialize_puback
+                  0x004f60                  _MQTTSerialize_pubcomp
+                  0x004e7e                  _MQTTSerialize_publish
+                  0x004e58                  _MQTTSerialize_publishLength
+                  0x004f58                  _MQTTSerialize_pubrel
+                  0x0051f8                  _MQTTSerialize_suback
+                  0x004f92                  _MQTTSerialize_subscribe
+                  0x004f68                  _MQTTSerialize_subscribeLength
+                  0x00542e                  _MQTTSerialize_unsuback
+                  0x005330                  _MQTTSerialize_unsubscribe
+                  0x005306                  _MQTTSerialize_unsubscribeLength
+                  0x004bb0                  _MQTTSerialize_zero
+                  0x00409e                  _MQTTStringFormat_ack
+                  0x004056                  _MQTTStringFormat_connack
+                  0x003fb6                  _MQTTStringFormat_connect
+                  0x004068                  _MQTTStringFormat_publish
+                  0x0040f6                  _MQTTStringFormat_suback
+                  0x0040da                  _MQTTStringFormat_subscribe
+                  0x004106                  _MQTTStringFormat_unsubscribe
+                  0x002f8e                  _MQTTSubscribe
+                  0x00303c                  _MQTTUnsubscribe
+                  0x002e94                  _MQTTYield
+                  0x0048d4                  _MQTTstrlen
+                  0x004da2                  _MilliTimer_Handler
+                  0x004dfa                  _NewNetwork
+                  0x005506                  _PIN_MANAGER_Initialize
+                  0x0054fc                  _Position_LCD
+                  0x003272                  _PublishTopic_h
+                  0x003240                  _PublishTopic_p
+                  0x00320a                  _PublishTopic_t
+                  0x0054dc                  _Puts_LCD
+                  0x005594                  _SPI2_Initialize
+                  0x0032a4                  _SubscribeTopic
+                  0x004dd6                  _TimerCountdown
+                  0x004dc8                  _TimerCountdownMS
+                  0x004db0                  _TimerInit
+                  0x004db8                  _TimerIsExpired
+                  0x004de8                  _TimerLeftMS
+                  0x003bc8                  _WIZCHIP_READ
+                  0x003cce                  _WIZCHIP_READ_BUF
+                  0x003c4e                  _WIZCHIP_WRITE
+                  0x003d68                  _WIZCHIP_WRITE_BUF
+                  0x000320                  __DefaultInterrupt
+                  0x000ca4                  ___cvt_u
+                  0x005608                  ___delay32
+                  0x00191c                  ___divdi3
+                  0x00044c                  ___divsf3
+                  0x00044c                  ___divsf3x
+                  0x001796                  ___extendsfdf2
+                  0x0003aa                  ___fixsfsi
+                  0x00091a                  ___floatdisf
+                  0x0003ec                  ___floatsisf
+                  0x00093a                  ___floatundisf
+                  0x0003f2                  ___floatunsisf
+                  0x000b34                  ___fmt_d
+                  0x000be6                  ___fmt_o
+                  0x000c50                  ___fmt_s
+                  0x001146                  ___fmt_state
+                  0x000d4a                  ___fmt_u
+                  0x000d9c                  ___fmt_x
+                  0x00174e                  ___init_stdio
+                  0x000ab0                  ___init_stdout
+                  0x0015d8                  ___lseek
+                  0x00197c                  ___moddi3
+                  0x000440                  ___mulp32eds3
+                  0x000440                  ___mulp32peds3
+                  0x00060a                  ___mulsf3
+                  0x00060a                  ___mulsf3x
+                  0x000440                  ___mulsi3
+                  0x000f7e                  ___out
+                  0x0010cc                  ___pad
+                  0x001754                  ___pop_float
+                  0x000f8e                  ___pop_int
+                  0x001036                  ___pop_ptr
+                  0x00144a                  ___printf_core
+                  0x0016ac                  ___putc_unbuffered
+                  0x0009f4                  ___sio_printf_dosux
+                  0x000a12                  ___sio_printf_doux
+                  0x000a30                  ___sio_printf_s
+                  0x000a3e                  ___sio_snprintf_dosux
+                  0x000a58                  ___sio_sprintf_doux
+                  0x00148a                  ___stdio_close
+                  0x0014c8                  ___stdio_close_rw
+                  0x0016dc                  ___stpcpy
+                  0x00171c                  ___syscall_ret
+                  0x00173c                  ___tolower_l
+                  0x00174a                  ___toupper_l
+                  0x001906                  ___udivdi3
+                  0x001820                  ___udivmoddi3
+                  0x000420                  ___udivsi3
+                  0x001914                  ___umoddi3
+                  0x000ee6                  ___vfprintf
+                  0x000f02                  ___vsnprintf
+                  0x000f4c                  ___vsprintf
+                  0x000252                  __data_init
+                  0x000252                  __data_init_standard
+                  0x000716                  __dnrmpackf
+                  0x000998                  __fpack
+                  0x0003f6                  __funpack
+                  0x0007fc                  __propnanf
+                  0x00023c                  __psv_init
+                  0x000200                  __resetPRI
+                  0x0005de                  __sdivf
+                  0x00080e                  __spackf
+                  0x0007c8                  __typef
+                  0x00076a                  __unpackdnrmf
+                  0x0008b4                  __unpackf
+                  0x001534                  _atoi
+                  0x00471c                  _bufchar
+                  0x0020b8                  _close
+                  0x002272                  _connect
+                  0x003180                  _cs_desel
+                  0x00317a                  _cs_sel
+                  0x003b84                  _ctlnetwork
+                  0x002896                  _ctlsocket
+                  0x0039b2                  _ctlwizchip
+                  0x002dc6                  _cycle
+                  0x002d08                  _deliverMessage
+                  0x002376                  _disconnect
+                  0x001580                  _fputs
+                  0x0015ac                  _fwrite
+                  0x004862                  _getLenStringLen
+                  0x003e44                  _getSn_RX_RSR
+                  0x003dfa                  _getSn_TX_FSR
+                  0x002a48                  _getsockopt
+                  0x001c72                  _http_200_header
+                  0x001cc6                  _http_404_header
+                  0x0032c8                  _ip_init
+                  0x002d78                  _keepalive
+                  0x00220a                  _listen
+                  0x003310                  _loopback_tcps
+                  0x00348e                  _main
+                  0x000a66                  _memcmp
+                  0x000a82                  _memcpy
+                  0x0015e4                  _memset
+                  0x0031a4                  _messageArrived
+                  0x0016da                  _putc
+                  0x000a90                  _puts
+                  0x004816                  _readChar
+                  0x004434                  _readHumidity
+                  0x004804                  _readInt
+                  0x0048a6                  _readMQTTLenString
+                  0x004570                  _readPressure
+                  0x0055c2                  _readSPI16bit
+                  0x0055e2                  _readSPI16bit_s_LE
+                  0x0055d8                  _readSPI16bit_u_LE
+                  0x0055a2                  _readSPI8bit
+                  0x004390                  _readTemp
+                  0x0024de                  _recv
+                  0x0026fa                  _recvfrom
+                  0x0036f2                  _reg_wizchip_bus_cbfunc
+                  0x0036c2                  _reg_wizchip_cris_cbfunc
+                  0x0036da                  _reg_wizchip_cs_cbfunc
+                  0x003714                  _reg_wizchip_spi_cbfunc
+                  0x003736                  _reg_wizchip_spiburst_cbfunc
+                  0x0023e6                  _send
+                  0x0025a4                  _sendto
+                  0x002950                  _setsockopt
+                  0x002114                  _socket
+                  0x003186                  _spi_rb
+                  0x003194                  _spi_wb
+                  0x000ab8                  _strcat
+                  0x000acc                  _strcpy
+                  0x000ada                  _strlen
+                  0x000b0a                  _strncmp
+                  0x001730                  _tolower
+                  0x00173e                  _toupper
+                  0x004d42                  _w5x00_disconnect
+                  0x004d6e                  _w5x00_read
+                  0x004d46                  _w5x00_write
+                  0x002ece                  _waitfor
+                  0x003efc                  _wiz_recv_data
+                  0x003f6a                  _wiz_recv_ignore
+                  0x003e8e                  _wiz_send_data
+                  0x0036b2                  _wizchip_bus_readdata
+                  0x0036b6                  _wizchip_bus_writedata
+                  0x003822                  _wizchip_clrinterrupt
+                  0x0036aa                  _wizchip_cris_enter
+                  0x0036ac                  _wizchip_cris_exit
+                  0x0036b0                  _wizchip_cs_deselect
+                  0x0036ae                  _wizchip_cs_select
+                  0x00383c                  _wizchip_getinterrupt
+                  0x00386e                  _wizchip_getinterruptmask
+                  0x003acc                  _wizchip_getnetinfo
+                  0x003b34                  _wizchip_getnetmode
+                  0x003b5e                  _wizchip_gettimeout
+                  0x0037b8                  _wizchip_init
+                  0x003856                  _wizchip_setinterruptmask
+                  0x003a80                  _wizchip_setnetinfo
+                  0x003b18                  _wizchip_setnetmode
+                  0x003b3c                  _wizchip_settimeout
+                  0x0036be                  _wizchip_spi_readburst
+                  0x0036ba                  _wizchip_spi_readbyte
+                  0x0036c0                  _wizchip_spi_writeburst
+                  0x0036bc                  _wizchip_spi_writebyte
+                  0x003758                  _wizchip_sw_reset
+                  0x0038f8                  _wizphy_getphyconf
+                  0x003888                  _wizphy_getphylink
+                  0x003892                  _wizphy_getphypmode
+                  0x00394c                  _wizphy_getphystat
+                  0x0038a2                  _wizphy_reset
+                  0x0038c2                  _wizphy_setphyconf
+                  0x003968                  _wizphy_setphypmode
+                  0x004840                  _writeCString
+                  0x004820                  _writeChar
+                  0x004828                  _writeInt
+                  0x00486e                  _writeMQTTString
+                  0x0055e4                  _writeSPI
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+data             0x000800           0x002000           a !xr
+reset            0x000000           0x000004  
+ivt              0x000004           0x0000fc  
+_reserved        0x000100           0x000004  
+aivt             0x000104           0x0000fc  
+program          0x000200           0x00a9fc           xr
+CONFIG2          0x00abfc           0x000002  
+CONFIG1          0x00abfe           0x000002  
+*default*        0x000000           0xffffffff  
+
+Linker script and memory map
+
+LOAD build/default/production/main.o
+LOAD build/default/production/BME280.o
+LOAD build/default/production/PMP_LCD.o
+LOAD build/default/production/INIT.o
+LOAD build/default/production/SPI.o
+LOAD build/default/production/socket.o
+LOAD build/default/production/wizchip_conf.o
+LOAD build/default/production/w5500.o
+LOAD build/default/production/MQTTClient.o
+LOAD build/default/production/MQTTPacket.o
+LOAD build/default/production/mqtt_interface.o
+LOAD build/default/production/MQTTFormat.o
+LOAD build/default/production/MQTTConnectClient.o
+LOAD build/default/production/MQTTSerializePublish.o
+LOAD build/default/production/MQTTSubscribeClient.o
+LOAD build/default/production/MQTTSubscribeServer.o
+LOAD build/default/production/MQTTUnsubscribeClient.o
+LOAD build/default/production/MQTTUnsubscribeServer.o
+LOAD build/default/production/MQTTDeserializePublish.o
+LOAD build/default/production/MQTTConnectServer.o
+                    0x0001                  __MPLAB_BUILD = 0x1
+LOAD pPIC24Fxxx
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libfx-elf.a
+                    0xabfc                  __CONFIG2 = 0xabfc
+                    0xabfe                  __CONFIG1 = 0xabfe
+                    0x0001                  __NO_HANDLES = 0x1
+                    0x0200                  __CODE_BASE = 0x200
+                    0xa9fc                  __CODE_LENGTH = 0xa9fc
+                    0x0004                  __IVT_BASE = 0x4
+                    0x0104                  __AIVT_BASE = 0x104
+                    0x0800                  __DATA_BASE = 0x800
+                    0x2000                  __DATA_LENGTH = 0x2000
+
+.reset            0x000000          0x4
+                  0x000000          0x2 SHORT 0x200 ABSOLUTE (__reset)
+                  0x000001          0x2 SHORT 0x4
+                  0x000002          0x2 SHORT 0x0 ((ABSOLUTE (__reset) >> 0x10) & 0x7f)
+                  0x000003          0x2 SHORT 0x0
+
+.text             0x000200       0x17d8
+ *(.init)
+ .init            0x000200         0x4c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o)
+                  0x000200                  __resetPRI
+                  0x000200                  __reset
+                  0x00023c                  __psv_init
+ .init            0x00024c         0x7c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(data_init_standard.o)
+                  0x000252                  __data_init_standard
+                  0x000252                  __data_init
+ *(.user_init)
+ *(.handle)
+ *(.isr*)
+ .isr             0x000320          0x4 default_isr
+                  0x000320                  __DefaultInterrupt
+ *(.libc)
+ .libc            0x000324         0x84 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(write.Meo)
+                  0x000324                  _write
+ *(.libm)
+ *(.libdsp)
+ *(.lib*)
+ .libpic30_crt_start_mode
+                  0x0003a8          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt_start_mode_normal.Meo)
+                  0x0003a8                  __crt_start_mode
+                  0x0003a8                  __crt_start_mode_normal
+ .libm.fixsfsi    0x0003aa         0x42 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fixsfsi.XX_o)
+                  0x0003aa                  _(float, int, long long, short, float, short, int)
+ .libm.floatsisf
+                  0x0003ec          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+                  0x0003ec                  ___floatsisf
+ .libm.floatunsisf
+                  0x0003f2          0x4 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+                  0x0003f2                  ___floatunsisf
+ .libm.funpack    0x0003f6         0x2a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+                  0x0003f6                  __funpack
+ .libm.udivsi3    0x000420         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+                  0x000420                  ___udivsi3
+ .libm.mulsi3     0x000440          0xc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.XX_o)
+                  0x000440                  ___mulp32peds3
+                  0x000440                  ___mulsi3
+                  0x000440                  ___mulp32eds3
+ .libmx           0x00044c        0x1be c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+                  0x00044c                  ___divsf3x
+                  0x00044c                  ___divsf3
+                  0x0005de                  __sdivf
+ .libmx           0x00060a        0x10c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+                  0x00060a                  ___mulsf3x
+                  0x00060a                  ___mulsf3
+ .libmx           0x000716         0x54 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+                  0x000716                  __dnrmpackf
+ .libmx           0x00076a         0x5e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+                  0x00076a                  __unpackdnrmf
+ .libmx           0x0007c8         0x34 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+                  0x0007c8                  __typef
+ .libmx           0x0007fc         0x12 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+                  0x0007fc                  __propnanf
+ .libmx           0x00080e         0xa6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+                  0x00080e                  __spackf
+ .libmx           0x0008b4         0x66 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+                  0x0008b4                  __unpackf
+ .libm.floatdisf
+                  0x00091a         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+                  0x00091a                  ___floatdisf
+ .libm.floatundisf
+                  0x00093a         0x5e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+                  0x00093a                  ___floatundisf
+ .libm.fpack      0x000998         0x4c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+                  0x000998                  __fpack
+ .libc.__wrap_printf
+                  0x0009e4         0x10 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o)
+                  0x0009e4                  __dprintf_cdnopsuxX
+                  0x0009e4                  __printf_cdnopsuxX
+ .libc.__sio_printf_dosux
+                  0x0009f4          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o)
+                  0x0009f4                  ___sio_printf_dosux
+ .libc.__wrap_printf
+                  0x000a02         0x10 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_doux.XX_o)
+                  0x000a02                  __printf_cdnopuxX
+                  0x000a02                  __dprintf_cdnopuxX
+ .libc.__sio_printf_doux
+                  0x000a12          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_doux.XX_o)
+                  0x000a12                  ___sio_printf_doux
+ .libc.__wrap_printf
+                  0x000a20         0x10 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_s.XX_o)
+                  0x000a20                  __printf_s
+                  0x000a20                  __dprintf_s
+ .libc.__sio_printf_s
+                  0x000a30          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_s.XX_o)
+                  0x000a30                  ___sio_printf_s
+ .libc.__wrap_snprintf
+                  0x000a32          0xc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_snprintf_dosux.XX_o)
+                  0x000a32                  __dsnprintf_cdnopsuxX
+                  0x000a32                  __snprintf_cdnopsuxX
+ .libc.__sio_snprintf_dosux
+                  0x000a3e          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_snprintf_dosux.XX_o)
+                  0x000a3e                  ___sio_snprintf_dosux
+ .libc.__wrap_sprintf
+                  0x000a4c          0xc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_sprintf_doux.XX_o)
+                  0x000a4c                  __sprintf_cdnopuxX
+                  0x000a4c                  __dsprintf_cdnopuxX
+ .libc.__sio_sprintf_doux
+                  0x000a58          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_sprintf_doux.XX_o)
+                  0x000a58                  ___sio_sprintf_doux
+ .libc.memcmp     0x000a66         0x1c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcmp.XX_o)
+                  0x000a66                  _memcmp
+ .libc.memcpy     0x000a82          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcpy.XX_o)
+                  0x000a82                  _memcpy
+ .libc.puts       0x000a90         0x1a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(puts.XX_o)
+                  0x000a90                  _puts
+ .libc.__dummy0
+                  0x000aaa          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.XX_o)
+                  0x000aaa                  ___stdio_seek
+ .libc.__dummy    0x000aac          0x4 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.XX_o)
+                  0x000aac                  ___get_stdout
+ .libc.__init_stdout
+                  0x000ab0          0x8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.XX_o)
+                  0x000ab0                  ___init_stdout
+ .libc.strcat     0x000ab8         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strcat.XX_o)
+                  0x000ab8                  _strcat
+ .libc.strcpy     0x000acc          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strcpy.XX_o)
+                  0x000acc                  _strcpy
+ .libc.strlen     0x000ada         0x30 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strlen.XX_o)
+                  0x000ada                  _strlen
+ .libc.strncmp    0x000b0a         0x2a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strncmp.XX_o)
+                  0x000b0a                  _strncmp
+ .libc.__fmt_d    0x000b34         0xb2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_d.XX_o)
+                  0x000b34                  ___fmt_d
+                  0x000b34                  ___fmt_d_needed
+ .libc.__fmt_o    0x000be6         0x6a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_o.XX_o)
+                  0x000be6                  ___fmt_o
+                  0x000be6                  ___fmt_o_needed
+ .libc.__fmt_s    0x000c50         0x54 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_s.XX_o)
+                  0x000c50                  ___fmt_0_needed
+                  0x000c50                  ___fmt_s_needed
+                  0x000c50                  ___fmt_s
+ .libc.__cvt_u    0x000ca4         0xa6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_u.XX_o)
+                  0x000ca4                  ___cvt_u
+ .libc.__fmt_u    0x000d4a         0x52 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_u.XX_o)
+                  0x000d4a                  ___fmt_u
+                  0x000d4a                  ___fmt_u_needed
+ .libc.__fmt_x    0x000d9c        0x14a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_x.XX_o)
+                  0x000d9c                  ___fmt_x_needed
+                  0x000d9c                  ___fmt_x
+ .libc.__vfprintf
+                  0x000ee6         0x1c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vfprintf.XX_o)
+                  0x000ee6                  ___vfprintf
+ .libc.__vsnprintf
+                  0x000f02         0x4a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vsnprintf.XX_o)
+                  0x000f02                  ___vsnprintf
+ .libc.__vsprintf
+                  0x000f4c          0x8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vsprintf.XX_o)
+                  0x000f4c                  ___vsprintf
+ .libc.__string_out
+                  0x000f54         0x26 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.XX_o)
+ .libc.__fwrite_min
+                  0x000f7a          0x4 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.XX_o)
+                  0x000f7a                  ___fwrite
+                  0x000f7a                  ___stdio_write
+                  0x000f7a                  ___stdio_write_unbuffered
+ .libc.__out      0x000f7e         0x10 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.XX_o)
+                  0x000f7e                  ___out_needed
+                  0x000f7e                  ___out
+ .libc.__pop_int
+                  0x000f8e         0xa8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_int.XX_o)
+                  0x000f8e                  ___pop_int
+                  0x000f8e                  ___pop_int_needed
+ .libc.__pop_ptr
+                  0x001036         0x70 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_ptr.XX_o)
+                  0x001036                  ___pop_ptr_needed
+                  0x001036                  ___pop_ptr
+ .libc.__string_out
+                  0x0010a6         0x26 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+ .libc.__pad      0x0010cc         0x74 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+                  0x0010cc                  ___pad
+ .libc.__dummy_fmt3
+                  0x001140          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+ .libc.__dummy_fmt4
+                  0x001142          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+                  0x001142                  ___fmt_fp
+                  0x001142                  ___fmt_a
+ .libc.__dummy_fmts
+                  0x001144          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+ .libc.__fmt_state
+                  0x001146         0x2c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+                  0x001146                  ___fmt_state
+ .libc.vfpfcnvrt.clone.0
+                  0x001172        0x2d8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+ .libc.__printf_core
+                  0x00144a         0x40 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+                  0x00144a                  ___printf_core
+ .libc.__stdio_close
+                  0x00148a         0x3e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.XX_o)
+                  0x00148a                  ___stdio_close
+ .libc.__stdio_close_rw
+                  0x0014c8         0x58 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.XX_o)
+                  0x0014c8                  ___stdio_close_rw
+ .libc.__isspace
+                  0x001520         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(atoi.XX_o)
+ .libc.atoi       0x001534         0x4c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(atoi.XX_o)
+                  0x001534                  _atoi
+ .libc.fputs      0x001580         0x28 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fputs.XX_o)
+                  0x001580                  _fputs_unlocked
+                  0x001580                  _fputs
+ .libc.__fwrite_min
+                  0x0015a8          0x4 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fwrite.XX_o)
+ .libc.fwrite     0x0015ac         0x2c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fwrite.XX_o)
+                  0x0015ac                  _fwrite
+                  0x0015ac                  _fwrite_unlocked
+ .libc.__lseek    0x0015d8          0xc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(lseek.XX_o)
+                  0x0015d8                  _lseek
+                  0x0015d8                  ___lseek
+ .libc.memset     0x0015e4         0xc8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memset.XX_o)
+                  0x0015e4                  _memset
+ .libc.__putc_unbuffered
+                  0x0016ac         0x2e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(putc.XX_o)
+                  0x0016ac                  ___putc
+                  0x0016ac                  ___putc_unbuffered
+ .libc.putc       0x0016da          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(putc.XX_o)
+                  0x0016da                  _putc
+                  0x0016da                  _fputc
+                  0x0016da                  _putc_unlocked
+                  0x0016da                  __IO_putc
+ .libc.__stpcpy
+                  0x0016dc         0x40 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stpcpy.XX_o)
+                  0x0016dc                  ___stpcpy
+                  0x0016dc                  _stpcpy
+ .libc.__syscall_ret
+                  0x00171c         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(syscall_ret.XX_o)
+                  0x00171c                  ___syscall_ret
+ .libc.tolower    0x001730          0xc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(tolower.XX_o)
+                  0x001730                  _tolower
+ .libc.__tolower_l
+                  0x00173c          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(tolower.XX_o)
+                  0x00173c                  ___tolower_l
+                  0x00173c                  _tolower_l
+ .libc.toupper    0x00173e          0xc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(toupper.XX_o)
+                  0x00173e                  _toupper
+ .libc.__toupper_l
+                  0x00174a          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(toupper.XX_o)
+                  0x00174a                  ___toupper_l
+                  0x00174a                  _toupper_l
+ .libc.__dummy    0x00174c          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__init_stdio.XX_o)
+                  0x00174c                  ___init_stderr
+                  0x00174c                  ___init_stdin
+ .libc.__init_stdio
+                  0x00174e          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__init_stdio.XX_o)
+                  0x00174e                  ___init_stdio
+                  0x00174e                  ___init_stdio_needed
+ .libc.__pop_float
+                  0x001754         0x3e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_float.XX_o)
+                  0x001754                  ___pop_float
+                  0x001754                  ___pop_float_needed
+ .libc.dowrite    0x001792          0x4 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(write.Meo)
+ .libm.extendsfdf2
+                  0x001796         0x3e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.XX_o)
+                  0x001796                  ___extendsfdf2
+ .libm.__PplusBdi
+                  0x0017d4         0x26 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.XX_o)
+ .libm.__PminusBdi
+                  0x0017fa         0x26 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.XX_o)
+ .libm.__udivmoddi3
+                  0x001820         0xe6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x001820                  ___udivmoddi3
+ .libm.__udivdi3
+                  0x001906          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x001906                  ___udivdi3
+ .libm.__umoddi3
+                  0x001914          0x8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x001914                  ___umoddi3
+ .libm.__divdi3
+                  0x00191c         0x60 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x00191c                  ___divdi3
+ .libm.__moddi3
+                  0x00197c         0x5c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x00197c                  ___moddi3
+
+usercode
+ *(usercode)
+
+__CONFIG2
+ *(__CONFIG2.sec*)
+
+__CONFIG1
+ *(__CONFIG1.sec*)
+
+.comment
+ *(.comment)
+
+.debug_info       0x000000       0xb998
+ *(.debug_info)
+ .debug_info      0x000000       0x1219 build/default/production/main.o
+ .debug_info      0x001219        0x6b1 build/default/production/BME280.o
+ .debug_info      0x0018ca        0x5b4 build/default/production/PMP_LCD.o
+ .debug_info      0x001e7e        0x9d9 build/default/production/INIT.o
+ .debug_info      0x002857        0x59f build/default/production/SPI.o
+ .debug_info      0x002df6        0x86e build/default/production/socket.o
+ .debug_info      0x003664       0x1217 build/default/production/wizchip_conf.o
+ .debug_info      0x00487b        0x70f build/default/production/w5500.o
+ .debug_info      0x004f8a       0x12fc build/default/production/MQTTClient.o
+ .debug_info      0x006286        0x9b5 build/default/production/MQTTPacket.o
+ .debug_info      0x006c3b        0x58f build/default/production/mqtt_interface.o
+ .debug_info      0x0071ca        0xc72 build/default/production/MQTTFormat.o
+ .debug_info      0x007e3c        0x8bf build/default/production/MQTTConnectClient.o
+ .debug_info      0x0086fb        0x661 build/default/production/MQTTSerializePublish.o
+ .debug_info      0x008d5c        0x5a8 build/default/production/MQTTSubscribeClient.o
+ .debug_info      0x009304        0x531 build/default/production/MQTTSubscribeServer.o
+ .debug_info      0x009835        0x52c build/default/production/MQTTUnsubscribeClient.o
+ .debug_info      0x009d61        0x4ee build/default/production/MQTTUnsubscribeServer.o
+ .debug_info      0x00a24f        0x4f5 build/default/production/MQTTDeserializePublish.o
+ .debug_info      0x00a744        0x7d4 build/default/production/MQTTConnectServer.o
+ .debug_info      0x00af18         0x8d c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fixsfsi.XX_o)
+ .debug_info      0x00afa5         0x8f c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+ .debug_info      0x00b034         0x91 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+ .debug_info      0x00b0c5         0x8d c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+ .debug_info      0x00b152         0x8d c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+ .debug_info      0x00b1df         0x8c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.XX_o)
+ .debug_info      0x00b26b         0x9d c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+ .debug_info      0x00b308         0x9d c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+ .debug_info      0x00b3a5         0xa0 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+ .debug_info      0x00b445         0xa2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+ .debug_info      0x00b4e7         0x9c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+ .debug_info      0x00b583         0x9f c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+ .debug_info      0x00b622         0x9d c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+ .debug_info      0x00b6bf         0x9e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+ .debug_info      0x00b75d         0x8f c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+ .debug_info      0x00b7ec         0x91 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+ .debug_info      0x00b87d         0x8b c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+ .debug_info      0x00b908         0x90 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.XX_o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev     0x000000       0x1c9d
+ *(.debug_abbrev)
+ .debug_abbrev    0x000000        0x2b2 build/default/production/main.o
+ .debug_abbrev    0x0002b2        0x10b build/default/production/BME280.o
+ .debug_abbrev    0x0003bd        0x11a build/default/production/PMP_LCD.o
+ .debug_abbrev    0x0004d7         0xd6 build/default/production/INIT.o
+ .debug_abbrev    0x0005ad        0x10b build/default/production/SPI.o
+ .debug_abbrev    0x0006b8        0x13e build/default/production/socket.o
+ .debug_abbrev    0x0007f6        0x238 build/default/production/wizchip_conf.o
+ .debug_abbrev    0x000a2e        0x143 build/default/production/w5500.o
+ .debug_abbrev    0x000b71        0x2eb build/default/production/MQTTClient.o
+ .debug_abbrev    0x000e5c        0x1cd build/default/production/MQTTPacket.o
+ .debug_abbrev    0x001029        0x100 build/default/production/mqtt_interface.o
+ .debug_abbrev    0x001129        0x165 build/default/production/MQTTFormat.o
+ .debug_abbrev    0x00128e        0x152 build/default/production/MQTTConnectClient.o
+ .debug_abbrev    0x0013e0        0x10f build/default/production/MQTTSerializePublish.o
+ .debug_abbrev    0x0014ef         0xf8 build/default/production/MQTTSubscribeClient.o
+ .debug_abbrev    0x0015e7        0x10f build/default/production/MQTTSubscribeServer.o
+ .debug_abbrev    0x0016f6         0xeb build/default/production/MQTTUnsubscribeClient.o
+ .debug_abbrev    0x0017e1        0x10f build/default/production/MQTTUnsubscribeServer.o
+ .debug_abbrev    0x0018f0        0x10f build/default/production/MQTTDeserializePublish.o
+ .debug_abbrev    0x0019ff        0x136 build/default/production/MQTTConnectServer.o
+ .debug_abbrev    0x001b35         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fixsfsi.XX_o)
+ .debug_abbrev    0x001b49         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+ .debug_abbrev    0x001b5d         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+ .debug_abbrev    0x001b71         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+ .debug_abbrev    0x001b85         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+ .debug_abbrev    0x001b99         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.XX_o)
+ .debug_abbrev    0x001bad         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+ .debug_abbrev    0x001bc1         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+ .debug_abbrev    0x001bd5         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+ .debug_abbrev    0x001be9         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+ .debug_abbrev    0x001bfd         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+ .debug_abbrev    0x001c11         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+ .debug_abbrev    0x001c25         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+ .debug_abbrev    0x001c39         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+ .debug_abbrev    0x001c4d         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+ .debug_abbrev    0x001c61         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+ .debug_abbrev    0x001c75         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+ .debug_abbrev    0x001c89         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.XX_o)
+
+.debug_line       0x000000       0x1cf1
+ *(.debug_line)
+ .debug_line      0x000000        0x226 build/default/production/main.o
+ .debug_line      0x000226        0x198 build/default/production/BME280.o
+ .debug_line      0x0003be         0xfc build/default/production/PMP_LCD.o
+ .debug_line      0x0004ba         0xf8 build/default/production/INIT.o
+ .debug_line      0x0005b2         0xfb build/default/production/SPI.o
+ .debug_line      0x0006ad        0x241 build/default/production/socket.o
+ .debug_line      0x0008ee        0x1e8 build/default/production/wizchip_conf.o
+ .debug_line      0x000ad6        0x10f build/default/production/w5500.o
+ .debug_line      0x000be5        0x23f build/default/production/MQTTClient.o
+ .debug_line      0x000e24        0x113 build/default/production/MQTTPacket.o
+ .debug_line      0x000f37         0xe0 build/default/production/mqtt_interface.o
+ .debug_line      0x001017         0xbc build/default/production/MQTTFormat.o
+ .debug_line      0x0010d3         0xb9 build/default/production/MQTTConnectClient.o
+ .debug_line      0x00118c         0x83 build/default/production/MQTTSerializePublish.o
+ .debug_line      0x00120f         0x86 build/default/production/MQTTSubscribeClient.o
+ .debug_line      0x001295         0x79 build/default/production/MQTTSubscribeServer.o
+ .debug_line      0x00130e         0x74 build/default/production/MQTTUnsubscribeClient.o
+ .debug_line      0x001382         0x70 build/default/production/MQTTUnsubscribeServer.o
+ .debug_line      0x0013f2         0x76 build/default/production/MQTTDeserializePublish.o
+ .debug_line      0x001468         0xd9 build/default/production/MQTTConnectServer.o
+ .debug_line      0x001541         0x56 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fixsfsi.XX_o)
+ .debug_line      0x001597         0x3a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+ .debug_line      0x0015d1         0x3b c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+ .debug_line      0x00160c         0x4a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+ .debug_line      0x001656         0x45 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+ .debug_line      0x00169b         0x3a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.XX_o)
+ .debug_line      0x0016d5        0x124 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+ .debug_line      0x0017f9         0xcc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+ .debug_line      0x0018c5         0x72 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+ .debug_line      0x001937         0x7a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+ .debug_line      0x0019b1         0x5e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+ .debug_line      0x001a0f         0x51 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+ .debug_line      0x001a60         0x98 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+ .debug_line      0x001af8         0x79 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+ .debug_line      0x001b71         0x1a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(errno.XX_o)
+ .debug_line      0x001b8b         0x47 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+ .debug_line      0x001bd2         0x6c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+ .debug_line      0x001c3e         0x5a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+ .debug_line      0x001c98         0x59 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.XX_o)
+
+.debug_frame      0x000000       0x1816
+ *(.debug_frame)
+ .debug_frame     0x000000        0x242 build/default/production/main.o
+ .debug_frame     0x000242         0xd0 build/default/production/BME280.o
+ .debug_frame     0x000312         0x98 build/default/production/PMP_LCD.o
+ .debug_frame     0x0003aa         0x44 build/default/production/INIT.o
+ .debug_frame     0x0003ee         0x6e build/default/production/SPI.o
+ .debug_frame     0x00045c        0x232 build/default/production/socket.o
+ .debug_frame     0x00068e        0x2fc build/default/production/wizchip_conf.o
+ .debug_frame     0x00098a        0x1d6 build/default/production/w5500.o
+ .debug_frame     0x000b60        0x274 build/default/production/MQTTClient.o
+ .debug_frame     0x000dd4        0x1d2 build/default/production/MQTTPacket.o
+ .debug_frame     0x000fa6        0x11e build/default/production/mqtt_interface.o
+ .debug_frame     0x0010c4        0x30a build/default/production/MQTTFormat.o
+ .debug_frame     0x0013ce         0xc0 build/default/production/MQTTConnectClient.o
+ .debug_frame     0x00148e         0xc6 build/default/production/MQTTSerializePublish.o
+ .debug_frame     0x001554         0x98 build/default/production/MQTTSubscribeClient.o
+ .debug_frame     0x0015ec         0x60 build/default/production/MQTTSubscribeServer.o
+ .debug_frame     0x00164c         0x8c build/default/production/MQTTUnsubscribeClient.o
+ .debug_frame     0x0016d8         0x5e build/default/production/MQTTUnsubscribeServer.o
+ .debug_frame     0x001736         0x74 build/default/production/MQTTDeserializePublish.o
+ .debug_frame     0x0017aa         0x6c build/default/production/MQTTConnectServer.o
+
+.debug_str        0x000000        0x48f
+ *(.debug_str)
+ .debug_str       0x000000        0x11c build/default/production/main.o
+ .debug_str       0x00011c         0x16 build/default/production/BME280.o
+ .debug_str       0x000132          0xb build/default/production/PMP_LCD.o
+ .debug_str       0x00013d         0x45 build/default/production/INIT.o
+ .debug_str       0x000182         0x16 build/default/production/SPI.o
+ .debug_str       0x000198         0x18 build/default/production/socket.o
+ .debug_str       0x0001b0         0x11 build/default/production/wizchip_conf.o
+ .debug_str       0x0001c1         0x11 build/default/production/w5500.o
+ .debug_str       0x0001d2         0xc6 build/default/production/MQTTClient.o
+ .debug_str       0x000298         0x23 build/default/production/MQTTPacket.o
+ .debug_str       0x0002bb         0x11 build/default/production/mqtt_interface.o
+ .debug_str       0x0002cc         0xd9 build/default/production/MQTTFormat.o
+ .debug_str       0x0003a5         0x46 build/default/production/MQTTConnectClient.o
+ .debug_str       0x0003eb         0x25 build/default/production/MQTTSerializePublish.o
+ .debug_str       0x000410         0x16 build/default/production/MQTTSubscribeClient.o
+ .debug_str       0x000426          0x9 build/default/production/MQTTSubscribeServer.o
+ .debug_str       0x00042f         0x16 build/default/production/MQTTUnsubscribeClient.o
+ .debug_str       0x000445          0x9 build/default/production/MQTTUnsubscribeServer.o
+ .debug_str       0x00044e          0x9 build/default/production/MQTTDeserializePublish.o
+ .debug_str       0x000457         0x38 build/default/production/MQTTConnectServer.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubnames
+                  0x000000       0x1048
+ *(.debug_pubnames)
+ .debug_pubnames
+                  0x000000        0x212 build/default/production/main.o
+ .debug_pubnames
+                  0x000212         0x5c build/default/production/BME280.o
+ .debug_pubnames
+                  0x00026e         0x73 build/default/production/PMP_LCD.o
+ .debug_pubnames
+                  0x0002e1         0x56 build/default/production/INIT.o
+ .debug_pubnames
+                  0x000337         0x6c build/default/production/SPI.o
+ .debug_pubnames
+                  0x0003a3         0xb6 build/default/production/socket.o
+ .debug_pubnames
+                  0x000459        0x371 build/default/production/wizchip_conf.o
+ .debug_pubnames
+                  0x0007ca         0xba build/default/production/w5500.o
+ .debug_pubnames
+                  0x000884         0xcf build/default/production/MQTTClient.o
+ .debug_pubnames
+                  0x000953        0x148 build/default/production/MQTTPacket.o
+ .debug_pubnames
+                  0x000a9b         0xe7 build/default/production/mqtt_interface.o
+ .debug_pubnames
+                  0x000b82        0x146 build/default/production/MQTTFormat.o
+ .debug_pubnames
+                  0x000cc8         0xb6 build/default/production/MQTTConnectClient.o
+ .debug_pubnames
+                  0x000d7e         0xae build/default/production/MQTTSerializePublish.o
+ .debug_pubnames
+                  0x000e2c         0x6b build/default/production/MQTTSubscribeClient.o
+ .debug_pubnames
+                  0x000e97         0x49 build/default/production/MQTTSubscribeServer.o
+ .debug_pubnames
+                  0x000ee0         0x71 build/default/production/MQTTUnsubscribeClient.o
+ .debug_pubnames
+                  0x000f51         0x4d build/default/production/MQTTUnsubscribeServer.o
+ .debug_pubnames
+                  0x000f9e         0x46 build/default/production/MQTTDeserializePublish.o
+ .debug_pubnames
+                  0x000fe4         0x64 build/default/production/MQTTConnectServer.o
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_aranges    0x000000        0x420
+ *(.debug_aranges)
+ .debug_aranges
+                  0x000000         0x18 build/default/production/main.o
+ .debug_aranges
+                  0x000018         0x18 build/default/production/BME280.o
+ .debug_aranges
+                  0x000030         0x18 build/default/production/PMP_LCD.o
+ .debug_aranges
+                  0x000048         0x18 build/default/production/INIT.o
+ .debug_aranges
+                  0x000060         0x18 build/default/production/SPI.o
+ .debug_aranges
+                  0x000078         0x18 build/default/production/socket.o
+ .debug_aranges
+                  0x000090         0x18 build/default/production/wizchip_conf.o
+ .debug_aranges
+                  0x0000a8         0x18 build/default/production/w5500.o
+ .debug_aranges
+                  0x0000c0         0x18 build/default/production/MQTTClient.o
+ .debug_aranges
+                  0x0000d8         0x18 build/default/production/MQTTPacket.o
+ .debug_aranges
+                  0x0000f0         0x18 build/default/production/mqtt_interface.o
+ .debug_aranges
+                  0x000108         0x18 build/default/production/MQTTFormat.o
+ .debug_aranges
+                  0x000120         0x18 build/default/production/MQTTConnectClient.o
+ .debug_aranges
+                  0x000138         0x18 build/default/production/MQTTSerializePublish.o
+ .debug_aranges
+                  0x000150         0x18 build/default/production/MQTTSubscribeClient.o
+ .debug_aranges
+                  0x000168         0x18 build/default/production/MQTTSubscribeServer.o
+ .debug_aranges
+                  0x000180         0x18 build/default/production/MQTTUnsubscribeClient.o
+ .debug_aranges
+                  0x000198         0x18 build/default/production/MQTTUnsubscribeServer.o
+ .debug_aranges
+                  0x0001b0         0x18 build/default/production/MQTTDeserializePublish.o
+ .debug_aranges
+                  0x0001c8         0x18 build/default/production/MQTTConnectServer.o
+ .debug_aranges
+                  0x0001e0         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fixsfsi.XX_o)
+ .debug_aranges
+                  0x000200         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+ .debug_aranges
+                  0x000220         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+ .debug_aranges
+                  0x000240         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+ .debug_aranges
+                  0x000260         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+ .debug_aranges
+                  0x000280         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.XX_o)
+ .debug_aranges
+                  0x0002a0         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+ .debug_aranges
+                  0x0002c0         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+ .debug_aranges
+                  0x0002e0         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+ .debug_aranges
+                  0x000300         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+ .debug_aranges
+                  0x000320         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+ .debug_aranges
+                  0x000340         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+ .debug_aranges
+                  0x000360         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+ .debug_aranges
+                  0x000380         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+ .debug_aranges
+                  0x0003a0         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+ .debug_aranges
+                  0x0003c0         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+ .debug_aranges
+                  0x0003e0         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+ .debug_aranges
+                  0x000400         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.XX_o)
+                    0x0000                  WREG0 = 0x0
+                    0x0000                  _WREG0 = 0x0
+                    0x0002                  WREG1 = 0x2
+                    0x0002                  _WREG1 = 0x2
+                    0x0004                  WREG2 = 0x4
+                    0x0004                  _WREG2 = 0x4
+                    0x0006                  WREG3 = 0x6
+                    0x0006                  _WREG3 = 0x6
+                    0x0008                  WREG4 = 0x8
+                    0x0008                  _WREG4 = 0x8
+                    0x000a                  WREG5 = 0xa
+                    0x000a                  _WREG5 = 0xa
+                    0x000c                  WREG6 = 0xc
+                    0x000c                  _WREG6 = 0xc
+                    0x000e                  WREG7 = 0xe
+                    0x000e                  _WREG7 = 0xe
+                    0x0010                  WREG8 = 0x10
+                    0x0010                  _WREG8 = 0x10
+                    0x0012                  WREG9 = 0x12
+                    0x0012                  _WREG9 = 0x12
+                    0x0014                  WREG10 = 0x14
+                    0x0014                  _WREG10 = 0x14
+                    0x0016                  WREG11 = 0x16
+                    0x0016                  _WREG11 = 0x16
+                    0x0018                  WREG12 = 0x18
+                    0x0018                  _WREG12 = 0x18
+                    0x001a                  WREG13 = 0x1a
+                    0x001a                  _WREG13 = 0x1a
+                    0x001c                  WREG14 = 0x1c
+                    0x001c                  _WREG14 = 0x1c
+                    0x001e                  WREG15 = 0x1e
+                    0x001e                  _WREG15 = 0x1e
+                    0x0020                  SPLIM = 0x20
+                    0x0020                  _SPLIM = 0x20
+                    0x002e                  PCL = 0x2e
+                    0x002e                  _PCL = 0x2e
+                    0x0030                  PCH = 0x30
+                    0x0030                  _PCH = 0x30
+                    0x0032                  TBLPAG = 0x32
+                    0x0032                  _TBLPAG = 0x32
+                    0x0034                  PSVPAG = 0x34
+                    0x0034                  _PSVPAG = 0x34
+                    0x0036                  RCOUNT = 0x36
+                    0x0036                  _RCOUNT = 0x36
+                    0x0042                  SR = 0x42
+                    0x0042                  _SR = 0x42
+                    0x0042                  _SRbits = 0x42
+                    0x0044                  CORCON = 0x44
+                    0x0044                  _CORCON = 0x44
+                    0x0044                  _CORCONbits = 0x44
+                    0x0052                  DISICNT = 0x52
+                    0x0052                  _DISICNT = 0x52
+                    0x0060                  CNEN1 = 0x60
+                    0x0060                  _CNEN1 = 0x60
+                    0x0060                  _CNEN1bits = 0x60
+                    0x0062                  CNEN2 = 0x62
+                    0x0062                  _CNEN2 = 0x62
+                    0x0062                  _CNEN2bits = 0x62
+                    0x0068                  CNPU1 = 0x68
+                    0x0068                  _CNPU1 = 0x68
+                    0x0068                  _CNPU1bits = 0x68
+                    0x006a                  CNPU2 = 0x6a
+                    0x006a                  _CNPU2 = 0x6a
+                    0x006a                  _CNPU2bits = 0x6a
+                    0x0080                  INTCON1 = 0x80
+                    0x0080                  _INTCON1 = 0x80
+                    0x0080                  _INTCON1bits = 0x80
+                    0x0082                  INTCON2 = 0x82
+                    0x0082                  _INTCON2 = 0x82
+                    0x0082                  _INTCON2bits = 0x82
+                    0x0084                  IFS0 = 0x84
+                    0x0084                  _IFS0 = 0x84
+                    0x0084                  _IFS0bits = 0x84
+                    0x0086                  IFS1 = 0x86
+                    0x0086                  _IFS1 = 0x86
+                    0x0086                  _IFS1bits = 0x86
+                    0x0088                  IFS2 = 0x88
+                    0x0088                  _IFS2 = 0x88
+                    0x0088                  _IFS2bits = 0x88
+                    0x008a                  IFS3 = 0x8a
+                    0x008a                  _IFS3 = 0x8a
+                    0x008a                  _IFS3bits = 0x8a
+                    0x008c                  IFS4 = 0x8c
+                    0x008c                  _IFS4 = 0x8c
+                    0x008c                  _IFS4bits = 0x8c
+                    0x0094                  IEC0 = 0x94
+                    0x0094                  _IEC0 = 0x94
+                    0x0094                  _IEC0bits = 0x94
+                    0x0096                  IEC1 = 0x96
+                    0x0096                  _IEC1 = 0x96
+                    0x0096                  _IEC1bits = 0x96
+                    0x0098                  IEC2 = 0x98
+                    0x0098                  _IEC2 = 0x98
+                    0x0098                  _IEC2bits = 0x98
+                    0x009a                  IEC3 = 0x9a
+                    0x009a                  _IEC3 = 0x9a
+                    0x009a                  _IEC3bits = 0x9a
+                    0x009c                  IEC4 = 0x9c
+                    0x009c                  _IEC4 = 0x9c
+                    0x009c                  _IEC4bits = 0x9c
+                    0x00a4                  IPC0 = 0xa4
+                    0x00a4                  _IPC0 = 0xa4
+                    0x00a4                  _IPC0bits = 0xa4
+                    0x00a6                  IPC1 = 0xa6
+                    0x00a6                  _IPC1 = 0xa6
+                    0x00a6                  _IPC1bits = 0xa6
+                    0x00a8                  IPC2 = 0xa8
+                    0x00a8                  _IPC2 = 0xa8
+                    0x00a8                  _IPC2bits = 0xa8
+                    0x00aa                  IPC3 = 0xaa
+                    0x00aa                  _IPC3 = 0xaa
+                    0x00aa                  _IPC3bits = 0xaa
+                    0x00ac                  IPC4 = 0xac
+                    0x00ac                  _IPC4 = 0xac
+                    0x00ac                  _IPC4bits = 0xac
+                    0x00ae                  IPC5 = 0xae
+                    0x00ae                  _IPC5 = 0xae
+                    0x00ae                  _IPC5bits = 0xae
+                    0x00b0                  IPC6 = 0xb0
+                    0x00b0                  _IPC6 = 0xb0
+                    0x00b0                  _IPC6bits = 0xb0
+                    0x00b2                  IPC7 = 0xb2
+                    0x00b2                  _IPC7 = 0xb2
+                    0x00b2                  _IPC7bits = 0xb2
+                    0x00b4                  IPC8 = 0xb4
+                    0x00b4                  _IPC8 = 0xb4
+                    0x00b4                  _IPC8bits = 0xb4
+                    0x00b6                  IPC9 = 0xb6
+                    0x00b6                  _IPC9 = 0xb6
+                    0x00b6                  _IPC9bits = 0xb6
+                    0x00b8                  IPC10 = 0xb8
+                    0x00b8                  _IPC10 = 0xb8
+                    0x00b8                  _IPC10bits = 0xb8
+                    0x00ba                  IPC11 = 0xba
+                    0x00ba                  _IPC11 = 0xba
+                    0x00ba                  _IPC11bits = 0xba
+                    0x00bc                  IPC12 = 0xbc
+                    0x00bc                  _IPC12 = 0xbc
+                    0x00bc                  _IPC12bits = 0xbc
+                    0x00c2                  IPC15 = 0xc2
+                    0x00c2                  _IPC15 = 0xc2
+                    0x00c2                  _IPC15bits = 0xc2
+                    0x00c4                  IPC16 = 0xc4
+                    0x00c4                  _IPC16 = 0xc4
+                    0x00c4                  _IPC16bits = 0xc4
+                    0x00c8                  IPC18 = 0xc8
+                    0x00c8                  _IPC18 = 0xc8
+                    0x00c8                  _IPC18bits = 0xc8
+                    0x00e0                  INTTREG = 0xe0
+                    0x00e0                  _INTTREG = 0xe0
+                    0x00e0                  _INTTREGbits = 0xe0
+                    0x0100                  TMR1 = 0x100
+                    0x0100                  _TMR1 = 0x100
+                    0x0102                  PR1 = 0x102
+                    0x0102                  _PR1 = 0x102
+                    0x0104                  T1CON = 0x104
+                    0x0104                  _T1CON = 0x104
+                    0x0104                  _T1CONbits = 0x104
+                    0x0106                  TMR2 = 0x106
+                    0x0106                  _TMR2 = 0x106
+                    0x0108                  TMR3HLD = 0x108
+                    0x0108                  _TMR3HLD = 0x108
+                    0x010a                  TMR3 = 0x10a
+                    0x010a                  _TMR3 = 0x10a
+                    0x010c                  PR2 = 0x10c
+                    0x010c                  _PR2 = 0x10c
+                    0x010e                  PR3 = 0x10e
+                    0x010e                  _PR3 = 0x10e
+                    0x0110                  T2CON = 0x110
+                    0x0110                  _T2CON = 0x110
+                    0x0110                  _T2CONbits = 0x110
+                    0x0112                  T3CON = 0x112
+                    0x0112                  _T3CON = 0x112
+                    0x0112                  _T3CONbits = 0x112
+                    0x0114                  TMR4 = 0x114
+                    0x0114                  _TMR4 = 0x114
+                    0x0116                  TMR5HLD = 0x116
+                    0x0116                  _TMR5HLD = 0x116
+                    0x0118                  TMR5 = 0x118
+                    0x0118                  _TMR5 = 0x118
+                    0x011a                  PR4 = 0x11a
+                    0x011a                  _PR4 = 0x11a
+                    0x011c                  PR5 = 0x11c
+                    0x011c                  _PR5 = 0x11c
+                    0x011e                  T4CON = 0x11e
+                    0x011e                  _T4CON = 0x11e
+                    0x011e                  _T4CONbits = 0x11e
+                    0x0120                  T5CON = 0x120
+                    0x0120                  _T5CON = 0x120
+                    0x0120                  _T5CONbits = 0x120
+                    0x0140                  IC1BUF = 0x140
+                    0x0140                  _IC1BUF = 0x140
+                    0x0142                  IC1CON = 0x142
+                    0x0142                  _IC1CON = 0x142
+                    0x0142                  _IC1CONbits = 0x142
+                    0x0144                  IC2BUF = 0x144
+                    0x0144                  _IC2BUF = 0x144
+                    0x0146                  IC2CON = 0x146
+                    0x0146                  _IC2CON = 0x146
+                    0x0146                  _IC2CONbits = 0x146
+                    0x0148                  IC3BUF = 0x148
+                    0x0148                  _IC3BUF = 0x148
+                    0x014a                  IC3CON = 0x14a
+                    0x014a                  _IC3CON = 0x14a
+                    0x014a                  _IC3CONbits = 0x14a
+                    0x014c                  IC4BUF = 0x14c
+                    0x014c                  _IC4BUF = 0x14c
+                    0x014e                  IC4CON = 0x14e
+                    0x014e                  _IC4CON = 0x14e
+                    0x014e                  _IC4CONbits = 0x14e
+                    0x0150                  IC5BUF = 0x150
+                    0x0150                  _IC5BUF = 0x150
+                    0x0152                  IC5CON = 0x152
+                    0x0152                  _IC5CON = 0x152
+                    0x0152                  _IC5CONbits = 0x152
+                    0x0180                  OC1RS = 0x180
+                    0x0180                  _OC1RS = 0x180
+                    0x0182                  OC1R = 0x182
+                    0x0182                  _OC1R = 0x182
+                    0x0184                  OC1CON = 0x184
+                    0x0184                  _OC1CON = 0x184
+                    0x0184                  _OC1CONbits = 0x184
+                    0x0186                  OC2RS = 0x186
+                    0x0186                  _OC2RS = 0x186
+                    0x0188                  OC2R = 0x188
+                    0x0188                  _OC2R = 0x188
+                    0x018a                  OC2CON = 0x18a
+                    0x018a                  _OC2CON = 0x18a
+                    0x018a                  _OC2CONbits = 0x18a
+                    0x018c                  OC3RS = 0x18c
+                    0x018c                  _OC3RS = 0x18c
+                    0x018e                  OC3R = 0x18e
+                    0x018e                  _OC3R = 0x18e
+                    0x0190                  OC3CON = 0x190
+                    0x0190                  _OC3CON = 0x190
+                    0x0190                  _OC3CONbits = 0x190
+                    0x0192                  OC4RS = 0x192
+                    0x0192                  _OC4RS = 0x192
+                    0x0194                  OC4R = 0x194
+                    0x0194                  _OC4R = 0x194
+                    0x0196                  OC4CON = 0x196
+                    0x0196                  _OC4CON = 0x196
+                    0x0196                  _OC4CONbits = 0x196
+                    0x0198                  OC5RS = 0x198
+                    0x0198                  _OC5RS = 0x198
+                    0x019a                  OC5R = 0x19a
+                    0x019a                  _OC5R = 0x19a
+                    0x019c                  OC5CON = 0x19c
+                    0x019c                  _OC5CON = 0x19c
+                    0x019c                  _OC5CONbits = 0x19c
+                    0x0200                  I2C1RCV = 0x200
+                    0x0200                  _I2C1RCV = 0x200
+                    0x0202                  I2C1TRN = 0x202
+                    0x0202                  _I2C1TRN = 0x202
+                    0x0204                  I2C1BRG = 0x204
+                    0x0204                  _I2C1BRG = 0x204
+                    0x0206                  I2C1CON = 0x206
+                    0x0206                  _I2C1CON = 0x206
+                    0x0206                  _I2C1CONbits = 0x206
+                    0x0208                  I2C1STAT = 0x208
+                    0x0208                  _I2C1STAT = 0x208
+                    0x0208                  _I2C1STATbits = 0x208
+                    0x020a                  I2C1ADD = 0x20a
+                    0x020a                  _I2C1ADD = 0x20a
+                    0x020c                  I2C1MSK = 0x20c
+                    0x020c                  _I2C1MSK = 0x20c
+                    0x0210                  I2C2RCV = 0x210
+                    0x0210                  _I2C2RCV = 0x210
+                    0x0212                  I2C2TRN = 0x212
+                    0x0212                  _I2C2TRN = 0x212
+                    0x0214                  I2C2BRG = 0x214
+                    0x0214                  _I2C2BRG = 0x214
+                    0x0216                  I2C2CON = 0x216
+                    0x0216                  _I2C2CON = 0x216
+                    0x0216                  _I2C2CONbits = 0x216
+                    0x0218                  I2C2STAT = 0x218
+                    0x0218                  _I2C2STAT = 0x218
+                    0x0218                  _I2C2STATbits = 0x218
+                    0x021a                  I2C2ADD = 0x21a
+                    0x021a                  _I2C2ADD = 0x21a
+                    0x021c                  I2C2MSK = 0x21c
+                    0x021c                  _I2C2MSK = 0x21c
+                    0x0220                  U1MODE = 0x220
+                    0x0220                  _U1MODE = 0x220
+                    0x0220                  _U1MODEbits = 0x220
+                    0x0222                  U1STA = 0x222
+                    0x0222                  _U1STA = 0x222
+                    0x0222                  _U1STAbits = 0x222
+                    0x0224                  U1TXREG = 0x224
+                    0x0224                  _U1TXREG = 0x224
+                    0x0226                  U1RXREG = 0x226
+                    0x0226                  _U1RXREG = 0x226
+                    0x0228                  U1BRG = 0x228
+                    0x0228                  _U1BRG = 0x228
+                    0x0230                  U2MODE = 0x230
+                    0x0230                  _U2MODE = 0x230
+                    0x0230                  _U2MODEbits = 0x230
+                    0x0232                  U2STA = 0x232
+                    0x0232                  _U2STA = 0x232
+                    0x0232                  _U2STAbits = 0x232
+                    0x0234                  U2TXREG = 0x234
+                    0x0234                  _U2TXREG = 0x234
+                    0x0236                  U2RXREG = 0x236
+                    0x0236                  _U2RXREG = 0x236
+                    0x0238                  U2BRG = 0x238
+                    0x0238                  _U2BRG = 0x238
+                    0x0240                  SPI1STAT = 0x240
+                    0x0240                  _SPI1STAT = 0x240
+                    0x0240                  _SPI1STATbits = 0x240
+                    0x0242                  SPI1CON1 = 0x242
+                    0x0242                  _SPI1CON1 = 0x242
+                    0x0242                  _SPI1CON1bits = 0x242
+                    0x0244                  SPI1CON2 = 0x244
+                    0x0244                  _SPI1CON2 = 0x244
+                    0x0244                  _SPI1CON2bits = 0x244
+                    0x0248                  SPI1BUF = 0x248
+                    0x0248                  _SPI1BUF = 0x248
+                    0x0260                  SPI2STAT = 0x260
+                    0x0260                  _SPI2STAT = 0x260
+                    0x0260                  _SPI2STATbits = 0x260
+                    0x0262                  SPI2CON1 = 0x262
+                    0x0262                  _SPI2CON1 = 0x262
+                    0x0262                  _SPI2CON1bits = 0x262
+                    0x0264                  SPI2CON2 = 0x264
+                    0x0264                  _SPI2CON2 = 0x264
+                    0x0264                  _SPI2CON2bits = 0x264
+                    0x0268                  SPI2BUF = 0x268
+                    0x0268                  _SPI2BUF = 0x268
+                    0x02c0                  TRISA = 0x2c0
+                    0x02c0                  _TRISA = 0x2c0
+                    0x02c0                  _TRISAbits = 0x2c0
+                    0x02c2                  PORTA = 0x2c2
+                    0x02c2                  _PORTA = 0x2c2
+                    0x02c2                  _PORTAbits = 0x2c2
+                    0x02c4                  LATA = 0x2c4
+                    0x02c4                  _LATA = 0x2c4
+                    0x02c4                  _LATAbits = 0x2c4
+                    0x02c6                  ODCA = 0x2c6
+                    0x02c6                  _ODCA = 0x2c6
+                    0x02c6                  _ODCAbits = 0x2c6
+                    0x02c8                  TRISB = 0x2c8
+                    0x02c8                  _TRISB = 0x2c8
+                    0x02c8                  _TRISBbits = 0x2c8
+                    0x02ca                  PORTB = 0x2ca
+                    0x02ca                  _PORTB = 0x2ca
+                    0x02ca                  _PORTBbits = 0x2ca
+                    0x02cc                  LATB = 0x2cc
+                    0x02cc                  _LATB = 0x2cc
+                    0x02cc                  _LATBbits = 0x2cc
+                    0x02ce                  ODCB = 0x2ce
+                    0x02ce                  _ODCB = 0x2ce
+                    0x02ce                  _ODCBbits = 0x2ce
+                    0x02d0                  TRISC = 0x2d0
+                    0x02d0                  _TRISC = 0x2d0
+                    0x02d0                  _TRISCbits = 0x2d0
+                    0x02d2                  PORTC = 0x2d2
+                    0x02d2                  _PORTC = 0x2d2
+                    0x02d2                  _PORTCbits = 0x2d2
+                    0x02d4                  LATC = 0x2d4
+                    0x02d4                  _LATC = 0x2d4
+                    0x02d4                  _LATCbits = 0x2d4
+                    0x02d6                  ODCC = 0x2d6
+                    0x02d6                  _ODCC = 0x2d6
+                    0x02d6                  _ODCCbits = 0x2d6
+                    0x02fc                  PADCFG1 = 0x2fc
+                    0x02fc                  _PADCFG1 = 0x2fc
+                    0x02fc                  _PADCFG1bits = 0x2fc
+                    0x0300                  ADC1BUF0 = 0x300
+                    0x0300                  _ADC1BUF0 = 0x300
+                    0x0302                  ADC1BUF1 = 0x302
+                    0x0302                  _ADC1BUF1 = 0x302
+                    0x0304                  ADC1BUF2 = 0x304
+                    0x0304                  _ADC1BUF2 = 0x304
+                    0x0306                  ADC1BUF3 = 0x306
+                    0x0306                  _ADC1BUF3 = 0x306
+                    0x0308                  ADC1BUF4 = 0x308
+                    0x0308                  _ADC1BUF4 = 0x308
+                    0x030a                  ADC1BUF5 = 0x30a
+                    0x030a                  _ADC1BUF5 = 0x30a
+                    0x030c                  ADC1BUF6 = 0x30c
+                    0x030c                  _ADC1BUF6 = 0x30c
+                    0x030e                  ADC1BUF7 = 0x30e
+                    0x030e                  _ADC1BUF7 = 0x30e
+                    0x0310                  ADC1BUF8 = 0x310
+                    0x0310                  _ADC1BUF8 = 0x310
+                    0x0312                  ADC1BUF9 = 0x312
+                    0x0312                  _ADC1BUF9 = 0x312
+                    0x0314                  ADC1BUFA = 0x314
+                    0x0314                  _ADC1BUFA = 0x314
+                    0x0316                  ADC1BUFB = 0x316
+                    0x0316                  _ADC1BUFB = 0x316
+                    0x0318                  ADC1BUFC = 0x318
+                    0x0318                  _ADC1BUFC = 0x318
+                    0x031a                  ADC1BUFD = 0x31a
+                    0x031a                  _ADC1BUFD = 0x31a
+                    0x031c                  ADC1BUFE = 0x31c
+                    0x031c                  _ADC1BUFE = 0x31c
+                    0x031e                  ADC1BUFF = 0x31e
+                    0x031e                  _ADC1BUFF = 0x31e
+                    0x0320                  AD1CON1 = 0x320
+                    0x0320                  _AD1CON1 = 0x320
+                    0x0320                  _AD1CON1bits = 0x320
+                    0x0322                  AD1CON2 = 0x322
+                    0x0322                  _AD1CON2 = 0x322
+                    0x0322                  _AD1CON2bits = 0x322
+                    0x0324                  AD1CON3 = 0x324
+                    0x0324                  _AD1CON3 = 0x324
+                    0x0324                  _AD1CON3bits = 0x324
+                    0x0328                  AD1CHS = 0x328
+                    0x0328                  _AD1CHS = 0x328
+                    0x0328                  _AD1CHSbits = 0x328
+                    0x032c                  AD1PCFG = 0x32c
+                    0x032c                  _AD1PCFG = 0x32c
+                    0x032c                  _AD1PCFGbits = 0x32c
+                    0x0330                  AD1CSSL = 0x330
+                    0x0330                  _AD1CSSL = 0x330
+                    0x0330                  _AD1CSSLbits = 0x330
+                    0x0600                  PMCON = 0x600
+                    0x0600                  _PMCON = 0x600
+                    0x0600                  _PMCONbits = 0x600
+                    0x0602                  PMMODE = 0x602
+                    0x0602                  _PMMODE = 0x602
+                    0x0602                  _PMMODEbits = 0x602
+                    0x0604                  PMADDR = 0x604
+                    0x0604                  _PMADDR = 0x604
+                    0x0604                  _PMADDRbits = 0x604
+                    0x0604                  PMDOUT1 = 0x604
+                    0x0604                  _PMDOUT1 = 0x604
+                    0x0604                  _PMDOUT1bits = 0x604
+                    0x0606                  PMDOUT2 = 0x606
+                    0x0606                  _PMDOUT2 = 0x606
+                    0x0608                  PMDIN1 = 0x608
+                    0x0608                  _PMDIN1 = 0x608
+                    0x060a                  PMDIN2 = 0x60a
+                    0x060a                  _PMDIN2 = 0x60a
+                    0x060c                  PMAEN = 0x60c
+                    0x060c                  _PMAEN = 0x60c
+                    0x060c                  _PMAENbits = 0x60c
+                    0x060e                  PMSTAT = 0x60e
+                    0x060e                  _PMSTAT = 0x60e
+                    0x060e                  _PMSTATbits = 0x60e
+                    0x0620                  ALRMVAL = 0x620
+                    0x0620                  _ALRMVAL = 0x620
+                    0x0622                  ALCFGRPT = 0x622
+                    0x0622                  _ALCFGRPT = 0x622
+                    0x0622                  _ALCFGRPTbits = 0x622
+                    0x0624                  RTCVAL = 0x624
+                    0x0624                  _RTCVAL = 0x624
+                    0x0626                  RCFGCAL = 0x626
+                    0x0626                  _RCFGCAL = 0x626
+                    0x0626                  _RCFGCALbits = 0x626
+                    0x0630                  CMCON = 0x630
+                    0x0630                  _CMCON = 0x630
+                    0x0630                  _CMCONbits = 0x630
+                    0x0632                  CVRCON = 0x632
+                    0x0632                  _CVRCON = 0x632
+                    0x0632                  _CVRCONbits = 0x632
+                    0x0640                  CRCCON = 0x640
+                    0x0640                  _CRCCON = 0x640
+                    0x0640                  _CRCCONbits = 0x640
+                    0x0642                  CRCXOR = 0x642
+                    0x0642                  _CRCXOR = 0x642
+                    0x0642                  _CRCXORbits = 0x642
+                    0x0644                  CRCDAT = 0x644
+                    0x0644                  _CRCDAT = 0x644
+                    0x0646                  CRCWDAT = 0x646
+                    0x0646                  _CRCWDAT = 0x646
+                    0x0680                  RPINR0 = 0x680
+                    0x0680                  _RPINR0 = 0x680
+                    0x0680                  _RPINR0bits = 0x680
+                    0x0682                  RPINR1 = 0x682
+                    0x0682                  _RPINR1 = 0x682
+                    0x0682                  _RPINR1bits = 0x682
+                    0x0686                  RPINR3 = 0x686
+                    0x0686                  _RPINR3 = 0x686
+                    0x0686                  _RPINR3bits = 0x686
+                    0x0688                  RPINR4 = 0x688
+                    0x0688                  _RPINR4 = 0x688
+                    0x0688                  _RPINR4bits = 0x688
+                    0x068e                  RPINR7 = 0x68e
+                    0x068e                  _RPINR7 = 0x68e
+                    0x068e                  _RPINR7bits = 0x68e
+                    0x0690                  RPINR8 = 0x690
+                    0x0690                  _RPINR8 = 0x690
+                    0x0690                  _RPINR8bits = 0x690
+                    0x0692                  RPINR9 = 0x692
+                    0x0692                  _RPINR9 = 0x692
+                    0x0692                  _RPINR9bits = 0x692
+                    0x0696                  RPINR11 = 0x696
+                    0x0696                  _RPINR11 = 0x696
+                    0x0696                  _RPINR11bits = 0x696
+                    0x06a4                  RPINR18 = 0x6a4
+                    0x06a4                  _RPINR18 = 0x6a4
+                    0x06a4                  _RPINR18bits = 0x6a4
+                    0x06a6                  RPINR19 = 0x6a6
+                    0x06a6                  _RPINR19 = 0x6a6
+                    0x06a6                  _RPINR19bits = 0x6a6
+                    0x06a8                  RPINR20 = 0x6a8
+                    0x06a8                  _RPINR20 = 0x6a8
+                    0x06a8                  _RPINR20bits = 0x6a8
+                    0x06aa                  RPINR21 = 0x6aa
+                    0x06aa                  _RPINR21 = 0x6aa
+                    0x06aa                  _RPINR21bits = 0x6aa
+                    0x06ac                  RPINR22 = 0x6ac
+                    0x06ac                  _RPINR22 = 0x6ac
+                    0x06ac                  _RPINR22bits = 0x6ac
+                    0x06ae                  RPINR23 = 0x6ae
+                    0x06ae                  _RPINR23 = 0x6ae
+                    0x06ae                  _RPINR23bits = 0x6ae
+                    0x06c0                  RPOR0 = 0x6c0
+                    0x06c0                  _RPOR0 = 0x6c0
+                    0x06c0                  _RPOR0bits = 0x6c0
+                    0x06c2                  RPOR1 = 0x6c2
+                    0x06c2                  _RPOR1 = 0x6c2
+                    0x06c2                  _RPOR1bits = 0x6c2
+                    0x06c4                  RPOR2 = 0x6c4
+                    0x06c4                  _RPOR2 = 0x6c4
+                    0x06c4                  _RPOR2bits = 0x6c4
+                    0x06c6                  RPOR3 = 0x6c6
+                    0x06c6                  _RPOR3 = 0x6c6
+                    0x06c6                  _RPOR3bits = 0x6c6
+                    0x06c8                  RPOR4 = 0x6c8
+                    0x06c8                  _RPOR4 = 0x6c8
+                    0x06c8                  _RPOR4bits = 0x6c8
+                    0x06ca                  RPOR5 = 0x6ca
+                    0x06ca                  _RPOR5 = 0x6ca
+                    0x06ca                  _RPOR5bits = 0x6ca
+                    0x06cc                  RPOR6 = 0x6cc
+                    0x06cc                  _RPOR6 = 0x6cc
+                    0x06cc                  _RPOR6bits = 0x6cc
+                    0x06ce                  RPOR7 = 0x6ce
+                    0x06ce                  _RPOR7 = 0x6ce
+                    0x06ce                  _RPOR7bits = 0x6ce
+                    0x06d0                  RPOR8 = 0x6d0
+                    0x06d0                  _RPOR8 = 0x6d0
+                    0x06d0                  _RPOR8bits = 0x6d0
+                    0x06d2                  RPOR9 = 0x6d2
+                    0x06d2                  _RPOR9 = 0x6d2
+                    0x06d2                  _RPOR9bits = 0x6d2
+                    0x06d4                  RPOR10 = 0x6d4
+                    0x06d4                  _RPOR10 = 0x6d4
+                    0x06d4                  _RPOR10bits = 0x6d4
+                    0x06d6                  RPOR11 = 0x6d6
+                    0x06d6                  _RPOR11 = 0x6d6
+                    0x06d6                  _RPOR11bits = 0x6d6
+                    0x06d8                  RPOR12 = 0x6d8
+                    0x06d8                  _RPOR12 = 0x6d8
+                    0x06d8                  _RPOR12bits = 0x6d8
+                    0x0740                  RCON = 0x740
+                    0x0740                  _RCON = 0x740
+                    0x0740                  _RCONbits = 0x740
+                    0x0742                  OSCCON = 0x742
+                    0x0742                  _OSCCON = 0x742
+                    0x0742                  _OSCCONbits = 0x742
+                    0x0742                  OSCCONL = 0x742
+                    0x0742                  _OSCCONL = 0x742
+                    0x0743                  OSCCONH = 0x743
+                    0x0743                  _OSCCONH = 0x743
+                    0x0744                  CLKDIV = 0x744
+                    0x0744                  _CLKDIV = 0x744
+                    0x0744                  _CLKDIVbits = 0x744
+                    0x0748                  OSCTUN = 0x748
+                    0x0748                  _OSCTUN = 0x748
+                    0x0748                  _OSCTUNbits = 0x748
+                    0x0760                  NVMCON = 0x760
+                    0x0760                  _NVMCON = 0x760
+                    0x0760                  _NVMCONbits = 0x760
+                    0x0766                  NVMKEY = 0x766
+                    0x0766                  _NVMKEY = 0x766
+                    0x0770                  PMD1 = 0x770
+                    0x0770                  _PMD1 = 0x770
+                    0x0770                  _PMD1bits = 0x770
+                    0x0772                  PMD2 = 0x772
+                    0x0772                  _PMD2 = 0x772
+                    0x0772                  _PMD2bits = 0x772
+                    0x0774                  PMD3 = 0x774
+                    0x0774                  _PMD3 = 0x774
+                    0x0774                  _PMD3bits = 0x774
+                    0x0140                  IC1 = 0x140
+                    0x0140                  _IC1 = 0x140
+                    0x0144                  IC2 = 0x144
+                    0x0144                  _IC2 = 0x144
+                    0x0148                  IC3 = 0x148
+                    0x0148                  _IC3 = 0x148
+                    0x014c                  IC4 = 0x14c
+                    0x014c                  _IC4 = 0x14c
+                    0x0150                  IC5 = 0x150
+                    0x0150                  _IC5 = 0x150
+                    0x0180                  OC1 = 0x180
+                    0x0180                  _OC1 = 0x180
+                    0x0186                  OC2 = 0x186
+                    0x0186                  _OC2 = 0x186
+                    0x018c                  OC3 = 0x18c
+                    0x018c                  _OC3 = 0x18c
+                    0x0192                  OC4 = 0x192
+                    0x0192                  _OC4 = 0x192
+                    0x0198                  OC5 = 0x198
+                    0x0198                  _OC5 = 0x198
+                    0x0240                  SPI1 = 0x240
+                    0x0240                  _SPI1 = 0x240
+                    0x0260                  SPI2 = 0x260
+                    0x0260                  _SPI2 = 0x260
+                    0x0220                  UART1 = 0x220
+                    0x0220                  _UART1 = 0x220
+                    0x0230                  UART2 = 0x230
+                    0x0230                  _UART2 = 0x230
+START GROUP
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libm-elf.a
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a
+END GROUP
+OUTPUT(dist/default/production/PIC24_PMP_1602_LI_BME280.X.production.elf elf32-pic30)
+LOAD jump_table
+LOAD default_isr
+LOAD data_init
+
+.debug_pubtypes
+                  0x000420        0xbdd
+ .debug_pubtypes
+                  0x000420        0x1cc build/default/production/main.o
+ .debug_pubtypes
+                  0x0005ec         0x61 build/default/production/BME280.o
+ .debug_pubtypes
+                  0x00064d         0x40 build/default/production/PMP_LCD.o
+ .debug_pubtypes
+                  0x00068d         0xab build/default/production/INIT.o
+ .debug_pubtypes
+                  0x000738         0x61 build/default/production/SPI.o
+ .debug_pubtypes
+                  0x000799         0x71 build/default/production/socket.o
+ .debug_pubtypes
+                  0x00080a        0x155 build/default/production/wizchip_conf.o
+ .debug_pubtypes
+                  0x00095f         0x7b build/default/production/w5500.o
+ .debug_pubtypes
+                  0x0009da        0x163 build/default/production/MQTTClient.o
+ .debug_pubtypes
+                  0x000b3d         0x5f build/default/production/MQTTPacket.o
+ .debug_pubtypes
+                  0x000b9c         0x57 build/default/production/mqtt_interface.o
+ .debug_pubtypes
+                  0x000bf3         0x85 build/default/production/MQTTFormat.o
+ .debug_pubtypes
+                  0x000c78         0xba build/default/production/MQTTConnectClient.o
+ .debug_pubtypes
+                  0x000d32         0x5a build/default/production/MQTTSerializePublish.o
+ .debug_pubtypes
+                  0x000d8c         0x5a build/default/production/MQTTSubscribeClient.o
+ .debug_pubtypes
+                  0x000de6         0x5a build/default/production/MQTTSubscribeServer.o
+ .debug_pubtypes
+                  0x000e40         0x5a build/default/production/MQTTUnsubscribeClient.o
+ .debug_pubtypes
+                  0x000e9a         0x5a build/default/production/MQTTUnsubscribeServer.o
+ .debug_pubtypes
+                  0x000ef4         0x4f build/default/production/MQTTDeserializePublish.o
+ .debug_pubtypes
+                  0x000f43         0xba build/default/production/MQTTConnectServer.o
+
+__c30_signature
+                  0x000ffd        0x1d4
+ __c30_signature
+                  0x000ffd          0x6 build/default/production/main.o
+ __c30_signature
+                  0x001003          0x6 build/default/production/BME280.o
+ __c30_signature
+                  0x001009          0x6 build/default/production/PMP_LCD.o
+ __c30_signature
+                  0x00100f          0x6 build/default/production/INIT.o
+ __c30_signature
+                  0x001015          0x6 build/default/production/SPI.o
+ __c30_signature
+                  0x00101b          0x6 build/default/production/socket.o
+ __c30_signature
+                  0x001021          0x6 build/default/production/wizchip_conf.o
+ __c30_signature
+                  0x001027          0x6 build/default/production/w5500.o
+ __c30_signature
+                  0x00102d          0x6 build/default/production/MQTTClient.o
+ __c30_signature
+                  0x001033          0x6 build/default/production/MQTTPacket.o
+ __c30_signature
+                  0x001039          0x6 build/default/production/mqtt_interface.o
+ __c30_signature
+                  0x00103f          0x6 build/default/production/MQTTFormat.o
+ __c30_signature
+                  0x001045          0x6 build/default/production/MQTTConnectClient.o
+ __c30_signature
+                  0x00104b          0x6 build/default/production/MQTTSerializePublish.o
+ __c30_signature
+                  0x001051          0x6 build/default/production/MQTTSubscribeClient.o
+ __c30_signature
+                  0x001057          0x6 build/default/production/MQTTSubscribeServer.o
+ __c30_signature
+                  0x00105d          0x6 build/default/production/MQTTUnsubscribeClient.o
+ __c30_signature
+                  0x001063          0x6 build/default/production/MQTTUnsubscribeServer.o
+ __c30_signature
+                  0x001069          0x6 build/default/production/MQTTDeserializePublish.o
+ __c30_signature
+                  0x00106f          0x6 build/default/production/MQTTConnectServer.o
+ __c30_signature
+                  0x001075          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o)
+ __c30_signature
+                  0x00107b          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(data_init_standard.o)
+ __c30_signature
+                  0x001081          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(delay32.Meo)
+ __c30_signature
+                  0x001087          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fixsfsi.XX_o)
+ __c30_signature
+                  0x00108d          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+ __c30_signature
+                  0x001093          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+ __c30_signature
+                  0x001099          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+ __c30_signature
+                  0x00109f          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+ __c30_signature
+                  0x0010a5          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.XX_o)
+ __c30_signature
+                  0x0010ab          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(errno.XX_o)
+ __c30_signature
+                  0x0010b1          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+ __c30_signature
+                  0x0010b7          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+ __c30_signature
+                  0x0010bd          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+ __c30_signature
+                  0x0010c3          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.XX_o)
+ __c30_signature
+                  0x0010c9          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_doux.XX_o)
+ __c30_signature
+                  0x0010cf          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_s.XX_o)
+ __c30_signature
+                  0x0010d5          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_snprintf_dosux.XX_o)
+ __c30_signature
+                  0x0010db          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_sprintf_doux.XX_o)
+ __c30_signature
+                  0x0010e1          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcmp.XX_o)
+ __c30_signature
+                  0x0010e7          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcpy.XX_o)
+ __c30_signature
+                  0x0010ed          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(puts.XX_o)
+ __c30_signature
+                  0x0010f3          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.XX_o)
+ __c30_signature
+                  0x0010f9          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strcat.XX_o)
+ __c30_signature
+                  0x0010ff          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strcpy.XX_o)
+ __c30_signature
+                  0x001105          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strlen.XX_o)
+ __c30_signature
+                  0x00110b          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strncmp.XX_o)
+ __c30_signature
+                  0x001111          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_d.XX_o)
+ __c30_signature
+                  0x001117          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_o.XX_o)
+ __c30_signature
+                  0x00111d          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_s.XX_o)
+ __c30_signature
+                  0x001123          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_u.XX_o)
+ __c30_signature
+                  0x001129          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_x.XX_o)
+ __c30_signature
+                  0x00112f          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vfprintf.XX_o)
+ __c30_signature
+                  0x001135          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vsnprintf.XX_o)
+ __c30_signature
+                  0x00113b          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vsprintf.XX_o)
+ __c30_signature
+                  0x001141          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_init_needed.XX_o)
+ __c30_signature
+                  0x001147          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.XX_o)
+ __c30_signature
+                  0x00114d          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_int.XX_o)
+ __c30_signature
+                  0x001153          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_ptr.XX_o)
+ __c30_signature
+                  0x001159          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+ __c30_signature
+                  0x00115f          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.XX_o)
+ __c30_signature
+                  0x001165          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(atoi.XX_o)
+ __c30_signature
+                  0x00116b          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fputs.XX_o)
+ __c30_signature
+                  0x001171          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fwrite.XX_o)
+ __c30_signature
+                  0x001177          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(lseek.XX_o)
+ __c30_signature
+                  0x00117d          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memset.XX_o)
+ __c30_signature
+                  0x001183          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(putc.XX_o)
+ __c30_signature
+                  0x001189          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stpcpy.XX_o)
+ __c30_signature
+                  0x00118f          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(syscall_ret.XX_o)
+ __c30_signature
+                  0x001195          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(tolower.XX_o)
+ __c30_signature
+                  0x00119b          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(toupper.XX_o)
+ __c30_signature
+                  0x0011a1          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__errno_location.XX_o)
+ __c30_signature
+                  0x0011a7          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__init_stdio.XX_o)
+ __c30_signature
+                  0x0011ad          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_file_needed.XX_o)
+ __c30_signature
+                  0x0011b3          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_float.XX_o)
+ __c30_signature
+                  0x0011b9          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(write.Meo)
+ __c30_signature
+                  0x0011bf          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(c30_uart.Meo)
+ __c30_signature
+                  0x0011c5          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.XX_o)
+ __c30_signature
+                  0x0011cb          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.XX_o)
+
+__xc_reference_data
+
+.nbss               0x0800         0x12
+ .nbss              0x0800         0x12 build/default/production/main.o
+                    0x0800                  _humidity
+                    0x0802                  _pressure
+                    0x0804                  _write_buffer_len
+                    0x0805                  _sock_state
+                    0x0806                  _SoftTimer1
+                    0x0808                  _SoftTimer2
+                    0x080a                  _n
+
+.ndata              0x0812          0x4
+ .ndata             0x0812          0x4 build/default/production/main.o
+                    0x0812                  _licznik
+                    0x0814                  _temperature
+
+.nbss               0x0816          0xc
+ .nbss              0x0816          0x4 build/default/production/BME280.o
+                    0x0816                  _t_fine
+ .nbss              0x081a          0x4 build/default/production/socket.o
+ .nbss              0x081e          0x4 build/default/production/mqtt_interface.o
+                    0x081e                  _MilliTimer
+
+.ndata              0x0822          0x2
+ .ndata             0x0822          0x2 build/default/production/socket.o
+
+.nbss               0x0824          0x6
+ .nbss              0x0824          0x2 build/default/production/wizchip_conf.o
+ .nbss              0x0826          0x2 build/default/production/MQTTPacket.o
+ .nbss              0x0828          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(errno.XX_o)
+                    0x0828                  _errno
+
+.bss                0x082a       0x1446
+ .bss               0x082a       0x1446 build/default/production/main.o
+                    0x082a                  _targetIP
+                    0x082e                  _tempBuffer
+                    0x0c2e                  _RX_BUF
+                    0x102e                  _TX_BUF
+                    0x142e                  _c
+                    0x1460                  _s_humidity
+                    0x1465                  _s_preasure
+                    0x146a                  _s_tmp
+                    0x146f                  _read_buffer
+                    0x186f                  _write_buffer
+
+.data               0x1c70         0xc6
+ .data              0x1c70         0x42 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.XX_o)
+                    0x1c70                  __stdout
+                    0x1c72                  ___stdout_used
+ .data              0x1cb2         0x2e build/default/production/main.o
+                    0x1cb2                  _socknumlist
+                    0x1cb6                  _opts
+                    0x1cc8                  _netInfo
+ .data              0x1ce0         0x1e build/default/production/MQTTFormat.o
+                    0x1ce0                  _MQTTPacket_names
+ .data              0x1cfe         0x1e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.XX_o)
+ .data              0x1d1c         0x1a build/default/production/wizchip_conf.o
+                    0x1d1c                  _WIZCHIP
+
+.bss                0x1d36         0x1e
+ .bss               0x1d36         0x18 build/default/production/socket.o
+                    0x1d36                  _sock_pack_info
+ .bss               0x1d4e          0x4 build/default/production/wizchip_conf.o
+ .bss               0x1d52          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__errno_location.XX_o)
+                    0x1d52                  ___errno_val
+
+.data               0x1d54          0x2
+ .data              0x1d54          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(c30_uart.Meo)
+                    0x1d54                  ___C30_UART
+
+.config_JTAGEN    0x00abfe          0x2
+ .config_JTAGEN
+                  0x00abfe          0x2 build/default/production/main.o
+
+.config_IESO      0x00abfc          0x2
+ .config_IESO     0x00abfc          0x2 build/default/production/main.o
+
+.const              0x99d8        0x6e0 load address 0x0019d8  
+ .const             0x99d8        0x37c build/default/production/main.o
+                    0x9c72                  _http_200_header
+                    0x9cc6                  _http_404_header
+ .const             0x9d54        0x266 build/default/production/MQTTFormat.o
+ .const             0x9fba         0xb4 build/default/production/mqtt_interface.o
+ .const             0xa06e         0x32 build/default/production/MQTTClient.o
+ .const             0xa0a0          0xc build/default/production/MQTTConnectClient.o
+ .const             0xa0ac          0xc build/default/production/MQTTConnectServer.o
+
+.text             0x0020b8       0x2fba
+ .text            0x0020b8        0xaae build/default/production/socket.o
+                  0x0020b8                  _close
+                  0x002114                  _socket
+                  0x00220a                  _listen
+                  0x002272                  _connect
+                  0x002376                  _disconnect
+                  0x0023e6                  _send
+                  0x0024de                  _recv
+                  0x0025a4                  _sendto
+                  0x0026fa                  _recvfrom
+                  0x002896                  _ctlsocket
+                  0x002950                  _setsockopt
+                  0x002a48                  _getsockopt
+ .text            0x002b66        0x614 build/default/production/MQTTClient.o
+                  0x002cd8                  _MQTTClientInit
+                  0x002d08                  _deliverMessage
+                  0x002d78                  _keepalive
+                  0x002dc6                  _cycle
+                  0x002e94                  _MQTTYield
+                  0x002eb6                  _MQTTRun
+                  0x002ece                  _waitfor
+                  0x002ef6                  _MQTTConnect
+                  0x002f8e                  _MQTTSubscribe
+                  0x00303c                  _MQTTUnsubscribe
+                  0x0030a0                  _MQTTPublish
+                  0x00314c                  _MQTTDisconnect
+ .text            0x00317a        0x530 build/default/production/main.o
+                  0x00317a                  _cs_sel
+                  0x003180                  _cs_desel
+                  0x003186                  _spi_rb
+                  0x003194                  _spi_wb
+                  0x0031a4                  _messageArrived
+                  0x00320a                  _PublishTopic_t
+                  0x003240                  _PublishTopic_p
+                  0x003272                  _PublishTopic_h
+                  0x0032a4                  _SubscribeTopic
+                  0x0032c8                  _ip_init
+                  0x003310                  _loopback_tcps
+                  0x00348e                  _main
+ .text            0x0036aa        0x51e build/default/production/wizchip_conf.o
+                  0x0036aa                  _wizchip_cris_enter
+                  0x0036ac                  _wizchip_cris_exit
+                  0x0036ae                  _wizchip_cs_select
+                  0x0036b0                  _wizchip_cs_deselect
+                  0x0036b2                  _wizchip_bus_readdata
+                  0x0036b6                  _wizchip_bus_writedata
+                  0x0036ba                  _wizchip_spi_readbyte
+                  0x0036bc                  _wizchip_spi_writebyte
+                  0x0036be                  _wizchip_spi_readburst
+                  0x0036c0                  _wizchip_spi_writeburst
+                  0x0036c2                  _reg_wizchip_cris_cbfunc
+                  0x0036da                  _reg_wizchip_cs_cbfunc
+                  0x0036f2                  _reg_wizchip_bus_cbfunc
+                  0x003714                  _reg_wizchip_spi_cbfunc
+                  0x003736                  _reg_wizchip_spiburst_cbfunc
+                  0x003758                  _wizchip_sw_reset
+                  0x0037b8                  _wizchip_init
+                  0x003822                  _wizchip_clrinterrupt
+                  0x00383c                  _wizchip_getinterrupt
+                  0x003856                  _wizchip_setinterruptmask
+                  0x00386e                  _wizchip_getinterruptmask
+                  0x003888                  _wizphy_getphylink
+                  0x003892                  _wizphy_getphypmode
+                  0x0038a2                  _wizphy_reset
+                  0x0038c2                  _wizphy_setphyconf
+                  0x0038f8                  _wizphy_getphyconf
+                  0x00394c                  _wizphy_getphystat
+                  0x003968                  _wizphy_setphypmode
+                  0x0039b2                  _ctlwizchip
+                  0x003a80                  _wizchip_setnetinfo
+                  0x003acc                  _wizchip_getnetinfo
+                  0x003b18                  _wizchip_setnetmode
+                  0x003b34                  _wizchip_getnetmode
+                  0x003b3c                  _wizchip_settimeout
+                  0x003b5e                  _wizchip_gettimeout
+                  0x003b84                  _ctlnetwork
+ .text            0x003bc8        0x3e6 build/default/production/w5500.o
+                  0x003bc8                  _WIZCHIP_READ
+                  0x003c4e                  _WIZCHIP_WRITE
+                  0x003cce                  _WIZCHIP_READ_BUF
+                  0x003d68                  _WIZCHIP_WRITE_BUF
+                  0x003dfa                  _getSn_TX_FSR
+                  0x003e44                  _getSn_RX_RSR
+                  0x003e8e                  _wiz_send_data
+                  0x003efc                  _wiz_recv_data
+                  0x003f6a                  _wiz_recv_ignore
+ .text            0x003fae        0x3c8 build/default/production/MQTTFormat.o
+                  0x003fae                  _MQTTPacket_getName
+                  0x003fb6                  _MQTTStringFormat_connect
+                  0x004056                  _MQTTStringFormat_connack
+                  0x004068                  _MQTTStringFormat_publish
+                  0x00409e                  _MQTTStringFormat_ack
+                  0x0040da                  _MQTTStringFormat_subscribe
+                  0x0040f6                  _MQTTStringFormat_suback
+                  0x004106                  _MQTTStringFormat_unsubscribe
+                  0x004120                  _MQTTFormat_toClientString
+                  0x004224                  _MQTTFormat_toServerString
+ .text            0x004376        0x3a6 build/default/production/BME280.o
+                  0x004376                  _BME280_init
+                  0x004390                  _readTemp
+                  0x004434                  _readHumidity
+                  0x004570                  _readPressure
+ .text            0x00471c        0x2ec build/default/production/MQTTPacket.o
+                  0x00471c                  _bufchar
+                  0x004786                  _MQTTPacket_encode
+                  0x0047a8                  _MQTTPacket_decode
+                  0x0047e4                  _MQTTPacket_len
+                  0x0047fe                  _MQTTPacket_decodeBuf
+                  0x004804                  _readInt
+                  0x004816                  _readChar
+                  0x004820                  _writeChar
+                  0x004828                  _writeInt
+                  0x004840                  _writeCString
+                  0x004862                  _getLenStringLen
+                  0x00486e                  _writeMQTTString
+                  0x0048a6                  _readMQTTLenString
+                  0x0048d4                  _MQTTstrlen
+                  0x0048ea                  _MQTTPacket_equals
+                  0x004922                  _MQTTPacket_read
+                  0x00496a                  _MQTTPacket_readnb
+ .text            0x004a08        0x1d8 build/default/production/MQTTConnectClient.o
+                  0x004a08                  _MQTTSerialize_connectLength
+                  0x004a80                  _MQTTSerialize_connect
+                  0x004b68                  _MQTTDeserialize_connack
+                  0x004bb0                  _MQTTSerialize_zero
+                  0x004bd8                  _MQTTSerialize_disconnect
+                  0x004bdc                  _MQTTSerialize_pingreq
+ .text            0x004be0        0x162 build/default/production/MQTTConnectServer.o
+                  0x004be0                  _MQTTPacket_checkVersion
+                  0x004c10                  _MQTTDeserialize_connect
+                  0x004d02                  _MQTTSerialize_connack
+ .text            0x004d42        0x116 build/default/production/mqtt_interface.o
+                  0x004d42                  _w5x00_disconnect
+                  0x004d46                  _w5x00_write
+                  0x004d6e                  _w5x00_read
+                  0x004da2                  _MilliTimer_Handler
+                  0x004db0                  _TimerInit
+                  0x004db8                  _TimerIsExpired
+                  0x004dc8                  _TimerCountdownMS
+                  0x004dd6                  _TimerCountdown
+                  0x004de8                  _TimerLeftMS
+                  0x004dfa                  _NewNetwork
+                  0x004e0a                  _ConnectNetwork
+ .text            0x004e58        0x110 build/default/production/MQTTSerializePublish.o
+                  0x004e58                  _MQTTSerialize_publishLength
+                  0x004e7e                  _MQTTSerialize_publish
+                  0x004f06                  _MQTTSerialize_ack
+                  0x004f50                  _MQTTSerialize_puback
+                  0x004f58                  _MQTTSerialize_pubrel
+                  0x004f60                  _MQTTSerialize_pubcomp
+ .text            0x004f68        0x10a build/default/production/MQTTSubscribeClient.o
+                  0x004f68                  _MQTTSerialize_subscribeLength
+                  0x004f92                  _MQTTSerialize_subscribe
+                  0x00500e                  _MQTTDeserialize_suback
+
+.dinit            0x005072        0x102
+ .dinit           0x005072        0x102 data_init
+
+.text             0x005174        0x494
+ .text            0x005174         0xd4 build/default/production/MQTTSubscribeServer.o
+                  0x005174                  _MQTTDeserialize_subscribe
+                  0x0051f8                  _MQTTSerialize_suback
+ .text            0x005248         0xbe build/default/production/MQTTDeserializePublish.o
+                  0x005248                  _MQTTDeserialize_publish
+                  0x0052c8                  _MQTTDeserialize_ack
+ .text            0x005306         0xba build/default/production/MQTTUnsubscribeClient.o
+                  0x005306                  _MQTTSerialize_unsubscribeLength
+                  0x005330                  _MQTTSerialize_unsubscribe
+                  0x0053a0                  _MQTTDeserialize_unsuback
+ .text            0x0053c0         0xa4 build/default/production/MQTTUnsubscribeServer.o
+                  0x0053c0                  _MQTTDeserialize_unsubscribe
+                  0x00542e                  _MQTTSerialize_unsuback
+ .text            0x005464         0xa2 build/default/production/PMP_LCD.o
+                  0x005464                  _LCD_init
+                  0x0054b0                  _LCD_read
+                  0x0054c0                  _LCD_write
+                  0x0054dc                  _Puts_LCD
+                  0x0054f0                  _Clear_LCD
+                  0x0054f6                  _Home_LCD
+                  0x0054fc                  _Position_LCD
+ .text            0x005506         0x9c build/default/production/INIT.o
+                  0x005506                  _PIN_MANAGER_Initialize
+                  0x00556a                  _CLOCK_Initialize
+                  0x005594                  _SPI2_Initialize
+ .text            0x0055a2         0x66 build/default/production/SPI.o
+                  0x0055a2                  _readSPI8bit
+                  0x0055c2                  _readSPI16bit
+                  0x0055d8                  _readSPI16bit_u_LE
+                  0x0055e2                  _readSPI16bit_s_LE
+                  0x0055e4                  _writeSPI
+
+.init.delay32     0x005608         0x1c
+ .init.delay32    0x005608         0x1c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(delay32.Meo)
+                  0x005608                  ___delay32
